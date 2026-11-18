@@ -972,7 +972,7 @@ body.trip #hud{display:flex;flex-direction:column;align-items:center;justify-con
 
 /* ===== Graphite : verre fumé, ambre ===== */
 #hud .gz{position:absolute;inset:0;width:100%;height:100%}#hud .gz line{stroke:var(--ln2);stroke-width:3;stroke-linecap:round}#hud .gz line.on{stroke:var(--a)}#hud{position:fixed;overflow:visible}
-[data-theme=ember]{--bg:#121212;--s1:rgba(30,29,28,.86);--s2:rgba(255,255,255,.055);--s3:rgba(255,255,255,.09);--ln:rgba(255,255,255,.08);--ln2:rgba(255,255,255,.16);--tx:#f4f2ef;--t2:rgba(244,242,239,.64);--t3:rgba(244,242,239,.4);--a:#ff7a2c;--aT:#fff;--b:#ffb37a;--c:#ff5a4f;--grad:linear-gradient(160deg,#ff9b55,#ff6a1a);--glass:rgba(34,33,32,.62);--rim:inset 0 1px 0 rgba(255,255,255,.13),inset 0 0 0 1px rgba(255,255,255,.07),0 24px 44px -24px rgba(0,0,0,.9);--gloss:linear-gradient(180deg,rgba(255,255,255,.07),transparent 40%);--glow:drop-shadow(0 0 10px rgba(255,122,44,.55));--r:28px;--D:"Sora",system-ui,sans-serif;--L:"Sora",system-ui,sans-serif;--hw:500;--htr:-.025em;--Lw:500;--Lsz:12.5px;--Lsp:0;--tile:grayscale(1) sepia(.12) brightness(calc(.86*var(--mapb))) contrast(1.06)}
+[data-theme=ember]{--bg:#121212;--s1:rgba(30,29,28,.86);--s2:rgba(255,255,255,.055);--s3:rgba(255,255,255,.09);--ln:rgba(255,255,255,.08);--ln2:rgba(255,255,255,.16);--tx:#f4f2ef;--t2:rgba(244,242,239,.64);--t3:rgba(244,242,239,.4);--a:#ff7a2c;--aT:#fff;--b:#ffb37a;--c:#ff5a4f;--grad:linear-gradient(160deg,#ff9b55,#ff6a1a);--glass:rgba(34,33,32,.62);--rim:inset 0 1px 0 rgba(255,255,255,.13),inset 0 0 0 1px rgba(255,255,255,.07),0 24px 44px -24px rgba(0,0,0,.9);--gloss:linear-gradient(180deg,rgba(255,255,255,.07),transparent 40%);--glow:drop-shadow(0 0 10px rgba(255,122,44,.55));--r:28px;--D:"Sora",system-ui,sans-serif;--L:"Sora",system-ui,sans-serif;--hw:500;--htr:-.025em;--Lw:500;--Lsz:12.5px;--Lsp:0;--tile:brightness(calc(1.42*var(--mapb))) contrast(1.06) saturate(.9)}
 [data-theme=ember] body{background:radial-gradient(130% 55% at 50% -5%,#3a3633 0,#1a1918 48%,#0d0d0d 100%) fixed}
 [data-theme=ember] .lab{text-transform:lowercase;letter-spacing:0}[data-theme=ember] .lab::first-letter{text-transform:uppercase}
 [data-theme=ember] h1{font-weight:500;letter-spacing:-.03em}
@@ -1031,10 +1031,10 @@ body.trip #hud{display:flex;flex-direction:column;align-items:center;justify-con
 
 /* ---------- Cyberpunk : noir + turquoise ---------- */
 [data-theme=neon]{--bg:#020608;--s1:rgba(4,14,18,.92);--s2:rgba(0,240,255,.035);--s3:rgba(0,240,255,.08);--ln:rgba(0,240,255,.16);--ln2:rgba(0,240,255,.4);--tx:#e6fdff;--t2:rgba(200,250,255,.68);--t3:rgba(160,235,245,.42);--a:#00f0ff;--aT:#00161a;--b:#7affd9;--c:#ff2bd6;--grad:linear-gradient(135deg,#7ffaff,#00c8e0);--glass:rgba(2,10,13,.78);--r:6px;--D:"Sora",system-ui,sans-serif;--L:"Michroma","Sora",sans-serif;--U:"Sora",system-ui,sans-serif;--hw:600;--htr:.02em;--Lw:400;--Lsz:9.5px;--Lsp:.22em;
- --rim:inset 0 0 0 1px rgba(0,240,255,.2),0 0 24px -12px rgba(0,240,255,.55);--glow:drop-shadow(0 0 8px rgba(0,240,255,.8));--tile:grayscale(1) brightness(calc(.62*var(--mapb))) sepia(1) hue-rotate(140deg) saturate(3.2) contrast(1.25);
+ --rim:inset 0 0 0 1px rgba(0,240,255,.2),0 0 24px -12px rgba(0,240,255,.55);--glow:drop-shadow(0 0 8px rgba(0,240,255,.8));--tile:brightness(calc(1.35*var(--mapb))) sepia(.45) hue-rotate(140deg) saturate(1.7) contrast(1.05);
  --hud:linear-gradient(var(--a),var(--a)) 0 0/12px 1.5px no-repeat,linear-gradient(var(--a),var(--a)) 0 0/1.5px 12px no-repeat,linear-gradient(var(--a),var(--a)) 100% 100%/12px 1.5px no-repeat,linear-gradient(var(--a),var(--a)) 100% 100%/1.5px 12px no-repeat}
 [data-theme=neon] body{background:#020608}
-[data-theme=neon] #fx{background:repeating-linear-gradient(0deg,rgba(0,240,255,.035) 0 1px,transparent 1px 3px),radial-gradient(120% 70% at 50% 120%,rgba(0,240,255,.16),transparent 60%),linear-gradient(180deg,rgba(2,6,8,.75) 0,transparent 22%,transparent 62%,rgba(2,6,8,.85) 100%)}
+[data-theme=neon] #fx{background:radial-gradient(120% 70% at 50% 120%,rgba(0,240,255,.16),transparent 60%),linear-gradient(180deg,rgba(2,6,8,.75) 0,transparent 22%,transparent 62%,rgba(2,6,8,.85) 100%)}
 [data-theme=neon] #sheet{background:linear-gradient(180deg,rgba(6,22,28,.94),rgba(2,8,10,.97));border:0;border-top:1px solid rgba(0,240,255,.45);border-radius:18px 18px 0 0;box-shadow:0 -10px 40px -10px rgba(0,240,255,.35),0 -30px 80px rgba(0,0,0,.7);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
 [data-theme=neon] #sheet:after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:repeating-linear-gradient(0deg,rgba(0,240,255,.03) 0 1px,transparent 1px 4px)}
 [data-theme=neon] .lab{color:color-mix(in srgb,var(--a) 75%,transparent)}
@@ -1067,7 +1067,7 @@ body.trip #hud{display:flex;flex-direction:column;align-items:center;justify-con
 
 /* ---------- Clair ---------- */
 [data-theme=clair]{--bg:#eef0f2;--s1:rgba(255,255,255,.86);--s2:rgba(255,255,255,.7);--s3:#e4e7ea;--ln:rgba(10,14,20,.08);--ln2:rgba(10,14,20,.16);--tx:#0e1114;--t2:rgba(14,17,20,.64);--t3:rgba(14,17,20,.42);--a:#ff6a1a;--aT:#fff;--b:#0a84ff;--c:#e5484d;--grad:linear-gradient(160deg,#ff9a55,#ff5f12);--glass:rgba(255,255,255,.72);--r:24px;--D:"Sora",system-ui,sans-serif;--L:"Sora",system-ui,sans-serif;--hw:600;--htr:-.03em;--Lw:500;--Lsz:12.5px;--Lsp:0;
- --rim:0 1px 0 rgba(255,255,255,.9) inset,0 10px 30px -14px rgba(20,30,40,.28),0 0 0 1px rgba(10,14,20,.05);--tile:grayscale(.85) brightness(calc(1.03*var(--mapb))) contrast(.96)}
+ --rim:0 1px 0 rgba(255,255,255,.9) inset,0 10px 30px -14px rgba(20,30,40,.28),0 0 0 1px rgba(10,14,20,.05);--tile:none}
 [data-theme=clair] body{background:linear-gradient(180deg,#f6f7f8,#e8ebee)}
 [data-theme=clair] #fx{background:linear-gradient(180deg,rgba(246,247,248,.7) 0,transparent 20%,transparent 62%,rgba(232,235,238,.7) 100%)}
 [data-theme=clair] .lab{text-transform:lowercase;letter-spacing:0;color:var(--t3)}[data-theme=clair] .lab::first-letter{text-transform:uppercase}
@@ -1121,6 +1121,74 @@ body.today #body{padding-top:calc(var(--sat) + 18px)}
 [data-theme=clair] body.today #sheet{background:linear-gradient(180deg,#f6f7f8,#e8ebee)}
 [data-theme=clair] .tsearch,[data-theme=clair] .gearb{background:#fff;box-shadow:var(--rim)}[data-theme=ember] .tsearch,[data-theme=ember] .gearb{background:rgba(255,255,255,.06);box-shadow:var(--rim)}
 [data-theme=neon] .tsearch,[data-theme=neon] .gearb{border-radius:4px;background:rgba(0,240,255,.04);box-shadow:inset 0 0 0 1px rgba(0,240,255,.3)}
+
+/* ===== v7 : mode Clair refait (épuré, façon iOS / Pixel) ===== */
+[data-theme=clair]{--bg:#f2f2f7;--s1:#ffffff;--s2:#ffffff;--s3:#e9e9ef;--ln:rgba(60,60,67,.12);--ln2:rgba(60,60,67,.22);--tx:#0b0b0f;--t2:rgba(60,60,67,.72);--t3:rgba(60,60,67,.46);--a:#0a84ff;--aT:#fff;--b:#30b0c7;--c:#ff3b30;--grad:linear-gradient(180deg,#2b95ff,#0a7aff);--glass:rgba(250,250,252,.8);--r:20px;
+ --D:"Instrument Sans","Sora",system-ui,sans-serif;--U:"Instrument Sans","Sora",system-ui,sans-serif;--L:"Instrument Sans",system-ui,sans-serif;--hw:700;--htr:-.035em;--Lsz:13px;
+ --rim:0 0 0 .5px rgba(60,60,67,.1),0 1px 2px rgba(0,0,0,.04),0 8px 24px -12px rgba(0,0,0,.12)}
+[data-theme=clair] body,[data-theme=clair] body.today #sheet{background:#f2f2f7}
+[data-theme=clair] #fx{background:linear-gradient(180deg,rgba(242,242,247,.85) 0,transparent 18%,transparent 70%,rgba(242,242,247,.6) 100%)}
+[data-theme=clair] #sheet{background:rgba(242,242,247,.94);border-radius:28px 28px 0 0;box-shadow:0 -1px 0 rgba(60,60,67,.12),0 -18px 40px -24px rgba(0,0,0,.25)}
+[data-theme=clair] .card,[data-theme=clair] .box,[data-theme=clair] .row,[data-theme=clair] .stat,[data-theme=clair] .opt,[data-theme=clair] .sw,[data-theme=clair] .alert,[data-theme=clair] .flash,[data-theme=clair] .vx{background:#fff;border-radius:20px;box-shadow:var(--rim)}
+[data-theme=clair] .box.live,[data-theme=clair] .box.next,[data-theme=clair] .hero2{background:#fff}
+[data-theme=clair] .hero2{background:linear-gradient(160deg,#ffffff 40%,#eef5ff)}
+[data-theme=clair] .go{background:var(--a);box-shadow:0 8px 20px -10px rgba(10,132,255,.7);border-radius:14px;font-weight:600}
+[data-theme=clair] .ghost,[data-theme=clair] .tb,[data-theme=clair] .stages span{background:#fff;color:var(--tx);border-radius:12px;box-shadow:var(--rim)}
+[data-theme=clair] .tb.on,[data-theme=clair] .stages span.on{background:var(--tx);color:#fff}
+[data-theme=clair] input,[data-theme=clair] select,[data-theme=clair] textarea{background:#fff;box-shadow:inset 0 0 0 .5px rgba(60,60,67,.18);border-radius:12px}
+[data-theme=clair] .form .add,[data-theme=clair] .msg.u{background:var(--a);border-radius:12px}
+[data-theme=clair] .card .icn,[data-theme=clair] .row .ic{background:#eef5ff;color:var(--a);border-radius:12px}
+[data-theme=clair] #banner{background:rgba(255,255,255,.92);border-radius:22px}[data-theme=clair] #banner .arrow{background:var(--a);border-radius:16px}
+[data-theme=clair] #search,[data-theme=clair] #meB,[data-theme=clair] #fabs button,[data-theme=clair] .tsearch,[data-theme=clair] .gearb{background:rgba(255,255,255,.9);box-shadow:var(--rim)}
+[data-theme=clair] #brand:before{background:var(--a)}
+[data-theme=clair] #nav{background:rgba(250,250,252,.86);border-radius:28px;box-shadow:0 0 0 .5px rgba(60,60,67,.14),0 12px 30px -14px rgba(0,0,0,.28)}
+[data-theme=clair] #nav button.on svg{color:var(--a)}[data-theme=clair] #nav button[data-mod=nav]{background:var(--a);box-shadow:0 10px 22px -8px rgba(10,132,255,.7),0 0 0 6px #f2f2f7}
+[data-theme=clair] .hero:before{background:none}[data-theme=clair] .hero h1 em,[data-theme=clair] .thead h1 em{color:var(--a)}
+[data-theme=clair] .bar{background:#e5e5ea}[data-theme=clair] .bar i{background:var(--a)}
+[data-theme=clair] .dm{color:var(--tx)}[data-theme=clair] .hero2 .lead{color:var(--a)}
+[data-theme=clair] .rdot{background:radial-gradient(circle at 35% 30%,#ff6961,#ff3b30)}
+[data-theme=clair] .lab{color:var(--t3);font-weight:600}
+.icn.tl{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:color-mix(in srgb,var(--a) 14%,transparent);color:var(--a)}.icn.tl svg{width:22px;height:22px}
+.scg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}.scp{position:relative;border-radius:12px;overflow:hidden;aspect-ratio:3/4;background:var(--s3)}.scp img{width:100%;height:100%;object-fit:cover}.scp b{position:absolute;left:6px;top:6px;font:700 11px var(--U);background:rgba(0,0,0,.6);color:#fff;padding:2px 7px;border-radius:99px}.scp button{position:absolute;right:6px;top:6px;width:26px;height:26px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;font-size:12px}
+.form .ln+.ln{margin-top:8px}
+#nav button[data-mod=nav] svg,#nav button[data-mod=nav].on svg{color:var(--aT)!important;filter:none}
+/* ===== v18 : couche visuelle futuriste ===== */
+@keyframes aur{0%{transform:translate(-8%,-6%) rotate(0deg) scale(1)}50%{transform:translate(6%,4%) rotate(12deg) scale(1.15)}100%{transform:translate(-8%,-6%) rotate(0deg) scale(1)}}
+@keyframes sweep{to{--ang:360deg}}
+@property --ang{syntax:'<angle>';inherits:false;initial-value:0deg}
+body.today #sheet{overflow:hidden}
+body.today #sheet:before{content:"";position:absolute;inset:-30%;z-index:0;pointer-events:none;filter:blur(60px);opacity:.55;animation:aur 22s ease-in-out infinite;
+ background:radial-gradient(40% 30% at 20% 15%,color-mix(in srgb,var(--a) 55%,transparent),transparent 70%),radial-gradient(35% 28% at 85% 30%,color-mix(in srgb,var(--b) 45%,transparent),transparent 70%),radial-gradient(45% 35% at 50% 95%,color-mix(in srgb,var(--a) 30%,transparent),transparent 70%)}
+body.today #body{position:relative;z-index:1}
+[data-theme=clair] body.today #sheet:before{opacity:.35}
+.box.w{position:relative;isolation:isolate;backdrop-filter:blur(22px) saturate(160%);-webkit-backdrop-filter:blur(22px) saturate(160%)}
+.box.w:after{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;pointer-events:none;z-index:-1;
+ background:linear-gradient(150deg,color-mix(in srgb,var(--tx) 22%,transparent),transparent 35%,transparent 65%,color-mix(in srgb,var(--a) 35%,transparent));
+ -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+.box.w.hero2:after{padding:1.5px;background:conic-gradient(from var(--ang),transparent 0 60%,var(--a) 75%,color-mix(in srgb,var(--b) 80%,transparent) 85%,transparent 95%);animation:sweep 6s linear infinite}
+.box.w.hero2{box-shadow:0 30px 60px -30px color-mix(in srgb,var(--a) 55%,transparent),var(--rim)}
+.box.w .huge,.hero2 .big{background:linear-gradient(180deg,var(--tx),color-mix(in srgb,var(--tx) 62%,transparent));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+[data-theme=neon] .box.w .huge{-webkit-text-fill-color:currentColor;background:none}
+.thead h1{font-size:40px;letter-spacing:-.045em}
+.tsearch{backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+#body.anim .wg>*{animation:in .55s var(--ease) both}#body.anim .wg>*:nth-child(2){animation-delay:.05s}#body.anim .wg>*:nth-child(3){animation-delay:.1s}#body.anim .wg>*:nth-child(4){animation-delay:.15s}#body.anim .wg>*:nth-child(n+5){animation-delay:.2s}
+#nav{backdrop-filter:blur(30px) saturate(180%);-webkit-backdrop-filter:blur(30px) saturate(180%)}
+#nav button.on:not([data-mod=nav]){background:color-mix(in srgb,var(--a) 14%,transparent)}
+#nav button.on:not([data-mod=nav]) svg{filter:drop-shadow(0 0 8px color-mix(in srgb,var(--a) 70%,transparent))}
+#nav button[data-mod=nav]{box-shadow:0 0 0 6px color-mix(in srgb,var(--bg) 85%,transparent),0 14px 34px -6px color-mix(in srgb,var(--a) 80%,transparent),inset 0 1px 0 rgba(255,255,255,.4)}
+.ring .fg{stroke:url(#rg)}
+.rdot{box-shadow:0 0 24px -2px #ff3b30,0 0 0 6px color-mix(in srgb,#ff3b30 16%,transparent)}
+.box.w:active{transform:scale(.975)}
+@media (prefers-reduced-motion:reduce){body.today #sheet:before,.box.w.hero2:after{animation:none}}
+/* grain premium + finitions */
+body.today #sheet:after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.box.w{border-radius:30px}.box.w.x2.hero2{padding:22px}
+.hero2 .big{font-size:27px!important;line-height:1.08!important}
+.box.w .lab{letter-spacing:.02em}
+.box.w .huge{font-size:52px}
+.wg{gap:14px}
+.ring{filter:drop-shadow(0 8px 18px color-mix(in srgb,var(--a) 35%,transparent))}
+.box.w .huge{font-size:clamp(34px,11vw,46px);white-space:nowrap}
 </style>
 </head>
 <body>
@@ -1519,7 +1587,7 @@ let toastT;function toast(t,ms){const e=$('#toast');e.textContent=t;e.classList.
 const buzz=p=>{try{navigator.vibrate&&navigator.vibrate(p)}catch(e){}};
 const allPlaces=()=>PLACES.concat(S.custom.map(c=>Object.assign({g:'me',ic:'pin',custom:1},c)));
 const ll=p=>{const c=S.coords[p.id];return c&&c[2]==='cal'?c.slice(0,2):p.ll||(c&&c.slice(0,2))||null};
-const stopLL=n=>S.stops[n]?S.stops[n].slice(0,2):(n==='Gare'?GARE:null);
+const stopLL=n=>{if(S.stops[n]&&S.stops[n][2]==='cal')return S.stops[n].slice(0,2);if(typeof LV!=='undefined'&&LV.D){const c=gtfsLL(n);if(c)return c}return S.stops[n]?S.stops[n].slice(0,2):(n==='Gare'?GARE:null)};
 
 /* ---------- Géocodage ---------- */
 const ascii=s=>s.replace(/’/g,"'");
@@ -1627,7 +1695,7 @@ async function share(text,url){try{if(navigator.share){await navigator.share({te
 
 /* ---------- Progression ---------- */
 const RANKS=[['PIÉTON',0],['COURSIER',150],['ÉCLAIREUR',500],['TRACEUR',1200],['SPECTRE',2500],['LÉGENDE',5000]];
-const TH=[['neon','Cyberpunk',0,'#020608','#00f0ff'],['ember','Noir & verre',0,'#141414','#ff7a2c'],['clair','Clair',0,'#eef0f2','#ff6a1a']];
+const TH=[['neon','Cyberpunk',0,'#020608','#00f0ff'],['ember','Noir & verre',0,'#141414','#ff7a2c'],['clair','Clair',0,'#f2f2f7','#0a84ff']];
 const rank=()=>{let r=0;RANKS.forEach((x,i)=>{if(S.xp>=x[1])r=i});return r};
 function day(){const k=dkey();if(S.day.k!==k){if(S.day.k)S.hist[S.day.k]=Math.round(S.day.m||0);S.day={k,m:0,trips:0,stops:0,radar:0,shop:0,neu:0,todo:0,done:[]};save()}return S.day}
 const MISS=[{id:'walk',t:'Marche 2 km',g:2000,k:'m',xp:60},{id:'trip',t:'Termine 2 trajets',g:2,k:'trips',xp:50},{id:'stops',t:'Passe 8 arrêts de Mettis',g:8,k:'stops',xp:40},{id:'radar',t:'Scanne 2 catégories au Radar',g:2,k:'radar',xp:25},{id:'todo',t:'Boucle 3 tâches ou articles',g:3,k:'todo',xp:30},{id:'neu',t:'Rejoins un lieu jamais visité',g:1,k:'neu',xp:70}];
@@ -1765,7 +1833,7 @@ function setSheet(c){sheet.className='gls '+c;document.documentElement.style.set
 const stateOf=()=>sheet.classList.contains('open')?2:sheet.classList.contains('mid')?1:0;
 function P(h,still){const sc=body.scrollTop;body.classList.toggle('anim',!still);body.innerHTML=h;if(still)body.scrollTop=sc;else body.scrollTop=0}
 function est(p){const c=ll(p);if(!me||!c)return'';const d=hav(me,c)*1.3;return d<40?'ICI':mins(d/WALK)+'′'}
-function render(still){document.body.classList.toggle('today',mod==='today'&&!T&&!cur);if(T)return renderNav();if(cur)return renderDest(still);({today:rToday,nav:rHome,radar:rRadar,etu:rEtu,orga:rOrga,vie:rVie,me:rMe})[mod](still)}
+function render(still){document.body.classList.toggle('today',mod==='today'&&!T&&!cur);if(T)return renderNav();if(cur)return renderDest(still);({tools:rTools,today:rToday,nav:rHome,radar:rRadar,etu:rEtu,orga:rOrga,vie:rVie,me:rMe})[mod](still)}
 const head1=(lab,t,right)=>`<div class="hdr"><div><div class="lab">${lab}</div><h1>${t}</h1></div>${right||''}</div>`;
 const TIPS=[['Crous','Paiement Izly','Active ton compte Izly : c’est lui qui paie les repas Crous et d’autres services du campus.','https://www.etudiant.gouv.fr/fr/vous-restaurer-1903'],['Campus','Cafétéria Technopôle','Ouverte de 7h30 à 16h ; le Crous truck sert de 11h30 à 14h, à emporter.','https://iaemetz.univ-lorraine.fr/en/student-life/my-campus'],['Soins','Santé étudiante au Saulcy','Bâtiment Simone Veil, du lundi au vendredi, 8h–12h30 et 13h–17h.','https://iaemetz.univ-lorraine.fr/en/student-life/my-campus','sse'],['Soutien','Santé Psy Étudiants','Le portail étudiant de l’État référence des rendez-vous psy gratuits pour les étudiants.','https://www.etudiant.gouv.fr'],['Revenus','Jobs étudiants','Le Crous tient une plateforme d’offres de jobs réservées aux étudiants.','https://www.etudiant.gouv.fr'],['Crous','Rendez-vous Crous','Tu peux prendre rendez-vous en ligne avec le Crous plutôt que de te déplacer.','https://www.etudiant.gouv.fr'],['Réseau','Buddy System','Parrainage entre étudiants, pratique pour se faire un réseau en arrivant dans une ville.','https://www.etudiant.gouv.fr']];
 const tipOfDay=()=>{const all=DEALS.map(d=>[d.t,d.n,d.p,d.u,d.go]).concat(TIPS),d=new Date();return all[(d.getDate()+d.getMonth()*3)%all.length]};
@@ -1844,7 +1912,7 @@ function rVie(still){let x=head1('Courses · budget · soins','Quotidien')+'<div
 
 /* Profil */
 function rMe(still){const r=rank(),nx=RANKS[r+1],base=RANKS[r][1],pc=nx?Math.round((S.xp-base)/(nx[1]-base)*100):100,wk=S.log.filter(l=>Date.now()-l.at<6048e5);
- let x=head1('Profil & réglages',S.nm||'Réglages')+`<div class="box next"><div class="rank"><span class="mono lg">A</span><div style="flex:1"><div class="lab">RANG ${r+1} / ${RANKS.length}</div><div class="lv">${RANKS[r][0]}</div><div class="bar" style="margin:8px 0 4px"><i style="width:${pc}%"></i></div><div class="lab">${S.xp} XP${nx?' · '+(nx[1]-S.xp)+' AVANT '+nx[0]:' · RANG MAX'}</div></div></div></div>`;
+ let x=head1('Profil & réglages',S.nm||'Réglages')+`<button class="box w x2 hero2" data-t="open" data-v="" style="margin-bottom:14px"><div class="lab">Nouveau</div><b class="big">Autres options</b><p class="sub">Calculateur de moyenne, scanner PDF, échéances, rappel de départ…</p></button><div class="box next"><div class="rank"><span class="mono lg">A</span><div style="flex:1"><div class="lab">RANG ${r+1} / ${RANKS.length}</div><div class="lv">${RANKS[r][0]}</div><div class="bar" style="margin:8px 0 4px"><i style="width:${pc}%"></i></div><div class="lab">${S.xp} XP${nx?' · '+(nx[1]-S.xp)+' AVANT '+nx[0]:' · RANG MAX'}</div></div></div></div>`;
  x+=`<div class="grid g3">${[[(S.st.m/1000).toFixed(1),'KM À PIED'],[S.st.trips,'TRAJETS'],[S.st.stops,'ARRÊTS BUS'],[S.st.streak,'JOURS DE SUITE'],[S.st.seen.length,'LIEUX VUS'],[(wk.reduce((s,l)=>s+l.m,0)/1000).toFixed(1),'KM / 7 J']].map(s=>`<div class="stat"><b>${s[0]}</b><span class="lab">${s[1]}</span></div>`).join('')}</div>`;
  x+=xChart();x+='<div class="lab sec">BADGES</div><div>'+BADGES.map(b=>`<span class="tag ${b[1]()?'ok':''}" style="margin:0 6px 6px 0">${b[1]()?'◆ ':'◇ '}${b[0]}</span>`).join('')+'</div>';
  x+='<div class="lab sec">THÈME</div><div class="grid g3">'+TH.map(t=>`<button class="sw ${S.theme===t[0]?'on':''} ${r<t[2]?'lock':''}" data-a="theme" data-v="${t[0]}"><i style="background:linear-gradient(135deg,${t[3]} 0 55%,${t[4]} 55%)"></i><span>${r<t[2]?'RANG '+(t[2]+1):t[1]}</span></button>`).join('')+'</div>';
@@ -1894,9 +1962,9 @@ function renderNav(){const b=T.bus,st=T.stage,ban=$('#banner');ban.hidden=false;
   ban.innerHTML=`<div class="arrow">${ic('bus')}</div><div><div class="d">${left} ARRÊT${left>1?'S':''}</div><div class="t">${left===1?'Descends au prochain : '+esc(s[last]):'Prochain : '+esc(nxt)+' · descente '+esc(s[last])}</div></div>`;
   x=`<div class="hudT"><div class="col"><div class="big" style="color:var(--b)">${left}<small>ARRÊT${left>1?'S':''}</small></div><div class="lab">METTIS B → ${esc(b.head).toUpperCase()}</div></div><div class="side"><b>≈ ${clock(new Date(Date.now()+left*1e5+b.w2/WALK*1000))}</b><span class="lab">ARRIVÉE ${esc(T.dest.n).toUpperCase()}</span></div></div>
   <div class="bar"><i style="width:${Math.round(T.chk/last*100)}%"></i></div>${stages}
-  <div class="sub" style="margin:10px 0 2px">Vérifie l’écran du bus : « ${esc(b.head)} ». Chaque arrêt se coche seul au passage ; touche-en un pour le cocher à la main.</div>
-  ${LV.D?`<div class="lab sec"><i class="pulse ${LV.ok?'on':''}"></i>Ligne en direct</div>`+lineDiag():''}
-  <div class="line">${s.map((n,i)=>`<button class="st ${i<=T.chk?'done':i===T.chk+1?'cur':''} ${i===last?'end':''}" data-st="${i}"><span class="dot">${i<=T.chk?ic('check'):''}</span><span class="nm">${esc(n)}</span><span class="x">${i===0?'MONTÉE':i===last?'DESCENTE':stopLL(n)?'':'MANUEL'}</span></button>`).join('')}</div>`}
+  <div class="sub" style="margin:10px 0 2px">Vérifie l’écran du bus : « ${esc(b.head)} ». Les arrêts se cochent tout seuls : ton GPS, la position réelle du Mettis et ses horaires temps réel.</div>
+  ${(()=>{const et=liveEta(s[last]);return et?`<div class="box live" style="margin-top:10px"><div class="lab"><i class="pulse on"></i>Ton Mettis · temps réel</div><b class="big" style="font-size:22px">Arrivée ${esc(s[last])} à ${clock(new Date(et))}</b><p class="sub">dans ${minTo(et)} min · donnée Le Met’</p></div>`:''})()}${LV.D?`<div class="lab sec"><i class="pulse ${LV.ok?'on':''}"></i>Ligne en direct</div>`+lineDiag():''}
+  <div class="line">${s.map((n,i)=>`<button class="st ${i<=T.chk?'done':i===T.chk+1?'cur':''} ${i===last?'end':''}" data-st="${i}"><span class="dot">${i<=T.chk?ic('check'):''}</span><span class="nm">${esc(n)}</span><span class="x">${i===0?'MONTÉE':i===last?'DESCENTE':i===T.chk+1?'SUIVANT':''}</span></button>`).join('')}</div>`}
  else{const r=T.route;ban.className='gls';
   if(!r){ban.innerHTML=`<div class="arrow">${ic('up')}</div><div><div class="d">…</div><div class="t">Calcul du tracé</div></div>`;x='<div class="lab">CALCUL DU TRACÉ…</div>'+stages}
   else{const left=T.left!=null?T.left:r.dist,sec=left/(r.dist/r.dur),nx=T.nx!=null?T.nx:r.steps.findIndex(q=>q.i>0),step=nx>=0?r.steps[nx]:null;
@@ -1904,7 +1972,7 @@ function renderNav(){const b=T.bus,st=T.stage,ban=$('#banner');ban.hidden=false;
    ban.innerHTML=`<div class="arrow">${arrow(step?step.ang:0)}</div><div><div class="d" id="bnd">${fmtLive(liveDn()||left)}</div><div class="t">${esc(step?step.t:'Continue jusqu’à '+(b&&st===0?'l’arrêt '+b.stops[0]:T.dest.n))}</div></div>`;
    x=`<div class="hudT"><div class="col"><div class="big">${mins(sec)}<small>MIN</small></div><div class="lab">${fmtD(left).toUpperCase()} · ${label}</div></div><div class="side"><b>${clock(new Date(Date.now()+sec*1000))}</b><span class="lab">ARRIVÉE</span></div></div>
    <div class="bar"><i style="width:${Math.round((1-left/r.dist)*100)}%"></i></div>${stages}`;
-   if(b&&st===0&&LV.D){const nb=nextBus(b.stops[0],b.stops[b.stops.length-1],3);x+=`<div class="box live" style="margin-top:12px"><div class="lab"><i class="pulse ${LV.ok?'on':''}"></i>Prochains Mettis B à ${esc(b.stops[0])}</div><div>${busTxt(nb)}</div>${nb[0]&&T.route?`<div class="m tiny">${minTo(nb[0].at)*60<(T.left!=null?T.left:T.route.dist)/1.25?'Celui-ci risque d’être serré : vise le suivant.':'Tu as le temps d’attraper le premier.'}</div>`:''}</div>`}
+   if(b&&st===0&&LV.D){const nb=nextBus(b.stops[0],b.stops[b.stops.length-1],3);x+=planB(nb,b)+`<div class="box live" style="margin-top:12px"><div class="lab"><i class="pulse ${LV.ok?'on':''}"></i>Prochains Mettis B à ${esc(b.stops[0])}</div><div>${busTxt(nb)}</div>${nb[0]&&T.route?`<div class="m tiny">${minTo(nb[0].at)*60<(T.left!=null?T.left:T.route.dist)/1.25?'Celui-ci risque d’être serré : vise le suivant.':'Tu as le temps d’attraper le premier.'}</div>`:''}</div>`}
    if(b&&st===0)x+=`<div class="alert" style="margin-top:12px">À l’arrêt <b>${esc(b.stops[0])}</b> : Mettis B direction <b>${esc(b.head)}</b>, ${b.stops.length-1} arrêts, descente <b>${esc(b.stops[b.stops.length-1])}</b>. Ticket : distributeur à l’arrêt Gare.</div><button class="ghost" data-a="atStop">Je suis à l’arrêt</button>`;
    x+='<div class="lab sec">ÉTAPES</div><div class="steps">'+r.steps.map((q,i)=>`<div class="s ${nx>=0&&i<nx-1||nx<0&&i<r.steps.length-1?'past':i===nx?'cur':''}">${arrow(q.ang)}<span>${esc(q.t)}</span><span class="dd">${q.d>5?fmtD(q.d):''}</span></div>`).join('')+'</div>'}}
  x+='<div class="two"><button class="ghost" data-a="shareE">Partager mon arrivée</button><button class="ghost" data-a="voice">Voix : '+(S.voice?'ON':'OFF')+'</button></div><button class="go stop" data-a="end" style="margin-top:12px">Arrêter</button>';
@@ -1935,7 +2003,7 @@ $('#results').addEventListener('click',e=>{const b=e.target.closest('[data-f]');
 const val=id=>{const e=$('#'+id);return e?e.value.trim():''};
 function setMod(m){mod=m;cur=null;G.route.clearLayers();G.dest.clearLayers();document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('on',b.dataset.mod===m));$('#search').hidden=m!=='nav';setSheet(m==='nav'?'mid':'open');sfx('tap');render()}
 $('#meB').addEventListener('click',()=>setMod('me'));$('#nav').addEventListener('click',e=>{const b=e.target.closest('button');if(b)setMod(b.dataset.mod)});
-function applyTheme(){document.documentElement.dataset.theme=S.theme;const m=document.querySelector('meta[name=theme-color]');if(m)m.content=S.theme==='clair'?'#eef0f2':S.theme==='ember'?'#151413':'#020608';if(/cartocdn/.test(tiles._url))tiles.setUrl(tileUrl());setTimeout(()=>{drawTrip();accC.setStyle({color:css('--a')})},50)}
+function applyTheme(){document.documentElement.dataset.theme=S.theme;const m=document.querySelector('meta[name=theme-color]');if(m)m.content=S.theme==='clair'?'#f2f2f7':S.theme==='ember'?'#151413':'#020608';if(/cartocdn/.test(tiles._url))tiles.setUrl(tileUrl());setTimeout(()=>{drawTrip();accC.setStyle({color:css('--a')})},50)}
 body.addEventListener('click',e=>{const t=e.target.closest('button,a');if(!t)return;const d=t.dataset,v=d.v;
  if(d.mod)return setMod(d.mod);
  if(d.p){e.preventDefault();const p=byId(d.p);if(mod!=='nav'){mod='nav';document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('on',b.dataset.mod==='nav'));$('#search').hidden=false}return openDest(p)}
@@ -2090,11 +2158,13 @@ const GQ='https://api.groq.com/openai/v1/';
 async function qreq(path,opt){const r=await fetch(GQ+path,Object.assign({method:'POST'},opt,{headers:Object.assign({Authorization:'Bearer '+S.qk},opt.headers||{})}));if(!r.ok){const e=new Error('HTTP '+r.status);e.status=r.status;try{e.msg=(await r.json()).error.message}catch(_){}throw e}return r}
 async function qchat(msgs,json){let err;for(const m of['openai/gpt-oss-120b','llama-3.3-70b-versatile','qwen/qwen3-32b']){try{const j=await(await qreq('chat/completions',{headers:{'Content-Type':'application/json'},body:JSON.stringify({model:m,messages:msgs,temperature:.3,response_format:json?{type:'json_object'}:undefined})})).json();return(j.choices[0].message.content||'').replace(/<think>[\s\S]*?<\/think>/g,'').trim()}catch(e){err=e;if(![400,404,429,500,503].includes(e.status))break}}throw err}
 async function qtr(b,mime){const ext=/mp4|m4a|aac/.test(mime)?'m4a':/mpeg|mp3/.test(mime)?'mp3':/wav/.test(mime)?'wav':/ogg/.test(mime)?'ogg':'webm',fd=new FormData();fd.append('file',new File([b],'cours.'+ext,{type:mime}));fd.append('model','whisper-large-v3');fd.append('language','fr');fd.append('response_format','text');fd.append('temperature','0');
- fd.append('prompt','Cours universitaire en français, management, qualité, recherche.');return(await(await qreq('audio/transcriptions',{body:fd})).text()).trim()}
+ fd.append('prompt',vocP());return(await(await qreq('audio/transcriptions',{body:fd})).text()).trim()}
 async function ltext(prompt,sys,json,preferG){if(preferG&&S.gk){try{return await gtext([{text:prompt}],sys,json,1)}catch(e){if(!S.qk)throw e}}if(S.qk){try{return await qchat((sys?[{role:'system',content:sys}]:[]).concat([{role:'user',content:prompt}]),json)}catch(e){if(!S.gk)throw e}}return gtext([{text:prompt}],sys,json,1)}
-async function tidyLong(raw){if(!S.qk)return(await gtext([{text:TRC+raw.slice(0,400000)}],null,false,1)).trim();
+const vocG=()=>S.voc?'\n\nVocabulaire du cours (orthographe exacte) : '+S.voc:'';
+const vocP=()=>('Cours universitaire en français à l’IAE Metz. '+(S.voc?'Noms et termes : '+S.voc+'.':'')).slice(0,880);
+async function tidyLong(raw){if(!S.qk)return(await gtext([{text:TRC+vocG()+'\n\n'+raw.slice(0,400000)}],null,false,1)).trim();
  const ps=raw.split(/\n\n+/),ch=[];let cur='';for(const p of ps){if(cur&&cur.length+p.length>8000){ch.push(cur);cur=''}cur+=(cur?'\n\n':'')+p}if(cur)ch.push(cur);const out=[];
- for(const c of ch){let t=null;for(let a=0;a<4&&t==null;a++){try{t=(await qchat([{role:'user',content:TRC+c}])).trim()}catch(e){if(e.status===429)await new Promise(z=>setTimeout(z,20000));else if(S.gk){try{t=(await gtext([{text:TRC+c}],null,false,1)).trim()}catch(_){}break}else break}}out.push(t||c.replace(/\[Passage \d+\] /g,''))}return out.join('\n\n')}
+ for(const c of ch){let t=null;for(let a=0;a<4&&t==null;a++){try{t=(await qchat([{role:'user',content:TRC+vocG()+'\n\n'+c}])).trim()}catch(e){if(e.status===429)await new Promise(z=>setTimeout(z,20000));else if(S.gk){try{t=(await gtext([{text:TRC+vocG()+'\n\n'+c}],null,false,1)).trim()}catch(_){}break}else break}}out.push(t||c.replace(/\[Passage \d+\] /g,''))}return out.join('\n\n')}
 const errTxt=e=>e.message==='nokey'?(S.qk?'Cette action demande Gemini (photo) : ajoute une clé Gemini.':e.msg):(e.status===503||e.status===500)?'Gemini est saturé en ce moment (tous les modèles ont été essayés). Ton audio est gardé : réessaie dans quelques minutes.':e.status===429?'Quota IA gratuit atteint. Ajoute une clé Groq (gratuite) dans les réglages, réessaie plus tard, ou enregistre en mode « Gratuit · sans IA ».':e.status===400||e.status===403?'Clé ou requête refusée par Gemini'+(e.msg?' : '+e.msg:'.'):!navigator.onLine?'Pas de réseau.':'Erreur IA'+(e.msg?' : '+e.msg:' ('+e.message+')');
 
 /* ---------- Voix : 8 voix Gemini + voix du téléphone ---------- */
@@ -2138,8 +2208,8 @@ async function sendChat(txt){if(busy||(!txt&&!pend))return;busy=true;const m={r:
  busy=false;save();if(mod==='etu'&&eT==='ia'){rEtu(true);body.scrollTop=body.scrollHeight}}
 /* enregistreur continu : un seul flux, sauvegarde toutes les minutes, écran éteint possible */
 const TRP='Transcris cet enregistrement de cours en français, de façon propre et fidèle. Supprime les hésitations, répétitions et tics de langage ; corrige la ponctuation ; découpe en paragraphes ; ajoute un intertitre court sur une ligne commençant par « ## » à chaque changement de thème. Garde tout le contenu : ne résume pas, n’invente rien, écris [inaudible] si un passage est incompréhensible. Donne uniquement la transcription.';
-const SEGMS=(window.__SEG||300000),TRS='Transcris mot pour mot ce passage d’un cours en français. Retire seulement les hésitations (euh, bah) et les répétitions. Ponctue correctement. N’ajoute ni titre ni commentaire. Si rien n’est audible, réponds exactement : [silence]';
-const TRC='Voici la transcription brute d’un cours, découpée en passages successifs. Rends-la propre et lisible en français : fusionne les passages, corrige la ponctuation et les mots mal reconnus évidents, découpe en paragraphes, ajoute un intertitre court sur une ligne commençant par « ## » à chaque changement de thème. Garde tout le contenu, ne résume pas, n’invente rien. Donne uniquement le texte.\n\n';
+const SEGMS=(window.__SEG||300000),TRS='Transcris mot pour mot ce passage d’un cours universitaire en français : voix du professeur, des étudiants et de l’auteur de l’enregistrement. Fidélité absolue : ne remplace aucun mot par un autre, garde exactement les noms propres (personnes, auteurs, entreprises) tels qu’ils sont prononcés, en t’aidant du vocabulaire fourni. Retire seulement les « euh » et les répétitions involontaires. Ponctue correctement. Si une personne autre que le professeur parle, commence sa réplique par « — ». Si un mot est incompréhensible, écris [inaudible] plutôt que de deviner. N’ajoute ni titre ni commentaire. Si rien n’est audible, réponds exactement : [silence]';
+const TRC='Voici la transcription brute d’un cours, découpée en passages successifs. Rends-la propre et lisible en français : fusionne les passages, corrige la ponctuation et les mots mal reconnus évidents, découpe en paragraphes, ajoute un intertitre court sur une ligne commençant par « ## » à chaque changement de thème. Garde tout le contenu, ne résume pas, n’invente rien. Ne modifie jamais un nom propre ni un terme technique, sauf pour l’aligner exactement sur le vocabulaire fourni. Donne uniquement le texte.\n\n';
 let SR=null;
 function srStart(c){const R=window.SpeechRecognition||window.webkitSpeechRecognition;if(!R){toast('Reconnaissance vocale gratuite indisponible sur ce navigateur');return}
  c.free=c.free||[];const r=new R();r.lang='fr-FR';r.continuous=true;r.interimResults=true;SR={r,on:1,im:''};
@@ -2148,12 +2218,12 @@ function srStart(c){const R=window.SpeechRecognition||window.webkitSpeechRecogni
  r.onend=()=>{if(SR&&SR.on&&rec)setTimeout(()=>{try{r.start()}catch(_){}} ,250)};try{r.start()}catch(_){}}
 function srStop(){if(SR){SR.on=0;try{SR.r.stop()}catch(_){}SR=null}}
 const freeTxt=c=>{const s=(c.free||[]).map(t=>t.charAt(0).toUpperCase()+t.slice(1)+(/[.!?]$/.test(t)?'':'.'));const out=[];for(let i=0;i<s.length;i+=5)out.push(s.slice(i,i+5).join(' '));return out.join('\n\n')};
-function recSeg(){const r=rec,mr=new MediaRecorder(r.st,r.mt?{mimeType:r.mt,audioBitsPerSecond:24000}:{audioBitsPerSecond:24000}),parts=[],k=r.k++;
+function recSeg(){const r=rec,mr=new MediaRecorder(r.st,r.mt?{mimeType:r.mt,audioBitsPerSecond:128000}:{audioBitsPerSecond:128000}),parts=[],k=r.k++;
  mr.ondataavailable=e=>{if(e.data.size)parts.push(e.data)};
  mr.onstop=async()=>{const b=new Blob(parts,{type:mr.mimeType||r.mt||'audio/webm'});r.c.seg=Math.max(r.c.seg||0,k+1);r.c.size=(r.c.size||0)+b.size;if(b.size>2000){await idb.set('aud:'+r.c.id+':'+k,b).catch(()=>{});if(!r.c.fm)trQ(r.c,k)}else{r.c.parts[k]='';}
   await idb.set('course:'+r.c.id,r.c).catch(()=>{});if(r.ending&&r.mr===mr)recEnd(r)};
  mr.start(10000);return mr}
-async function recStart(){try{const st=await navigator.mediaDevices.getUserMedia({audio:{channelCount:1,echoCancellation:false,noiseSuppression:true,autoGainControl:true}}),id=uid(),mt=['audio/mp4;codecs=mp4a.40.2','audio/webm;codecs=opus','audio/webm'].find(m=>MediaRecorder.isTypeSupported(m))||'',
+async function recStart(){try{const st=await navigator.mediaDevices.getUserMedia({audio:{channelCount:1,sampleRate:48000,echoCancellation:false,noiseSuppression:false,autoGainControl:true}}),id=uid(),mt=['audio/mp4;codecs=mp4a.40.2','audio/webm;codecs=opus','audio/webm'].find(m=>MediaRecorder.isTypeSupported(m))||'',
   c={id,n:'Cours du '+new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'}),at:Date.now(),dur:0,seg:0,done:0,tr:'',parts:[],fm:S.trm==='free'?1:0};
   rec={st,c,mt,t0:Date.now(),k:0};S.courses.unshift({id,n:c.n,at:c.at,dur:0,seg:0});save();await idb.set('course:'+id,c);rec.mr=recSeg();if(c.fm)srStart(c);
   rec.cut=setInterval(()=>{if(!rec||rec.ending)return;const old=rec.mr;rec.mr=recSeg();setTimeout(()=>{try{old.stop()}catch(_){}},250)},SEGMS);
@@ -2169,7 +2239,7 @@ function trQ(c,k){(trJobs[c.id]=trJobs[c.id]||[]).push(k);if(!trJobs[c.id].run)t
 async function trSeg(c,k){const b=await idb.get('aud:'+c.id+':'+k);if(!b){c.parts[k]='';return}const mime=(b.type||'audio/webm').split(';')[0];
  const mk=async mt=>b.size<13e6?{inlineData:{mimeType:mt,data:await blobB64(b)}}:{fileData:{mimeType:mt,fileUri:await gUpload(b,mt)}};let t;
  if(S.qk&&b.size<24e6){try{c.parts[k]=await qtr(b,mime)||'[silence]';return}catch(e){if(!S.gk)throw e}}
- try{t=await gtext([await mk(mime),{text:TRS}],null,false,1)}catch(e){if(e.status!==400)throw e;t=await gtext([await mk(/mp4/.test(mime)?'audio/mp4':'audio/webm'),{text:TRS}],null,false,1)}
+ try{t=await gtext([await mk(mime),{text:TRS+vocG()}],null,false,1)}catch(e){if(e.status!==400)throw e;t=await gtext([await mk(/mp4/.test(mime)?'audio/mp4':'audio/webm'),{text:TRS+vocG()}],null,false,1)}
  c.parts[k]=(t||'').trim()}
 async function trRun(c){const q=trJobs[c.id];q.run=1;while(q.length){const k=q.shift();if(c.parts[k]!=null)continue;let ok=0;
   for(let a=0;a<4&&!ok;a++){if(!navigator.onLine){await new Promise(z=>setTimeout(z,15000));a--;continue}try{await trSeg(c,k);ok=1}catch(e){c.err=errTxt(e);await new Promise(z=>setTimeout(z,[4e3,15e3,45e3,0][a]))}}
@@ -2179,7 +2249,7 @@ async function trAll(c){if(!S.gk&&!S.qk)return toast('Ajoute une clé Groq ou Ge
  for(let k=0;k<c.seg;k++)if(c.parts[k]==null)trQ(c,k);
  while(trJobs[c.id]&&(trJobs[c.id].run||trJobs[c.id].length))await new Promise(z=>setTimeout(z,1000));
  const miss=[];for(let k=0;k<c.seg;k++)if(c.parts[k]==null)miss.push(k);
- const raw=(c.parts||[]).map((t,i)=>t&&t!=='[silence]'?'[Passage '+(i+1)+'] '+t:'').filter(Boolean).join('\n\n');
+ const raw=(c.parts||[]).map((t,i)=>t&&t!=='[silence]'?'[Passage '+(i+1)+']'+((c.marks||[]).some(m=>Math.floor(m/SEGMS)===i)?' ⭐':'')+' '+t:'').filter(Boolean).join('\n\n');
  if(raw){try{c.tr=await tidyLong(raw)}catch(e){c.tr=liveTxt(c);c.err='Mise en forme impossible pour l’instant ('+errTxt(e)+'). Le texte brut est gardé ; touche « Transcrire » pour réessayer.'}}
  c.done=miss.length?0:1;if(miss.length)c.err=(c.err?c.err+' ':'')+miss.length+' passage(s) non transcrit(s) : touche « Transcrire » pour les reprendre.';
  c.busy=0;await idb.set('course:'+c.id,c);const m=S.courses.find(x=>x.id===c.id);if(m){m.seg=c.seg}save();if(mod==='etu'&&curC&&curC.id===c.id&&!rec)rEtu(true)}
@@ -2188,25 +2258,25 @@ async function gUpload(blob,mime){const U='https://generativelanguage.googleapis
  let f=(await(await fetch(u,{method:'POST',headers:{'X-Goog-Upload-Offset':'0','X-Goog-Upload-Command':'upload, finalize'},body:blob})).json()).file;
  for(let k=0;k<60&&f.state==='PROCESSING';k++){await new Promise(z=>setTimeout(z,3000));f=await(await fetch(U+'v1beta/'+f.name,{headers:{'x-goog-api-key':S.gk}})).json()}return f.uri}
 
-async function mkFiche(c){if(busy)return;busy=true;rEtu(true);try{const j=JSON.parse(await ltext('À partir de cette transcription de cours, produis une fiche de révision en JSON strict : {"titre":string,"resume":string (8 à 12 phrases),"points":[string] (idées clés, 6 à 12),"definitions":[{"terme":string,"def":string}],"cartes":[{"q":string,"r":string}] (12 à 20 cartes question/réponse),"questions":[string] (5 questions d’examen probables)}. Reste fidèle au cours, n’ajoute rien d’extérieur.\n\nTRANSCRIPTION :\n'+c.tr.slice(0,S.gk?120000:20000),SYSf(),true,1));
-  c.fiche=j;if(j.titre&&/^Cours du /.test(c.n)){c.n=j.titre;const m=S.courses.find(x=>x.id===c.id);if(m)m.n=j.titre}const m=S.courses.find(x=>x.id===c.id);if(m)m.f=1;save();await idb.set('course:'+c.id,c);addXP(40,'Fiche de révision créée')}catch(e){toast(errTxt(e),6000)}busy=false;rEtu(true)}
+async function mkFiche(c){if(busy)return;busy=true;rEtu(true);try{const j=JSON.parse(await ltext('À partir de cette transcription de cours, produis une fiche de révision en JSON strict : {"titre":string,"resume":string (8 à 12 phrases),"points":[string] (idées clés, 6 à 12),"definitions":[{"terme":string,"def":string}],"cartes":[{"q":string,"r":string}] (12 à 20 cartes question/réponse),"questions":[string] (5 questions d’examen probables),"annonces":[{"type":"tache"|"echeance","texte":string,"date":"AAAA-MM-JJ" ou null}] (consignes du professeur : travail à faire, lecture, rendu, examen, date annoncée ; liste vide s’il n’y en a pas)}. Les passages marqués ⭐ sont jugés importants par l’étudiant : mets-les en tête des idées clés. Reste fidèle au cours, n’ajoute rien d’extérieur.\n\nTRANSCRIPTION :\n'+c.tr.slice(0,S.gk?120000:20000),SYSf(),true,1));
+  c.fiche=j;annAdd(c,j);if(j.titre&&/^Cours du /.test(c.n)){c.n=j.titre;const m=S.courses.find(x=>x.id===c.id);if(m)m.n=j.titre}const m=S.courses.find(x=>x.id===c.id);if(m)m.f=1;save();await idb.set('course:'+c.id,c);addXP(40,'Fiche de révision créée')}catch(e){toast(errTxt(e),6000)}busy=false;rEtu(true)}
 const ficheTxt=c=>{const f=c.fiche;return f?[f.titre,'',f.resume,'','IDÉES CLÉS'].concat(f.points.map(p=>'• '+p),['','DÉFINITIONS'],(f.definitions||[]).map(d=>'• '+d.terme+' : '+d.def),['','QUESTIONS'],(f.questions||[]).map(q=>'• '+q)).join('\n'):c.tr};
 function rEtu(still){let x=head1('Assistant · cours · fiches','Études')+'<div class="tabs">'+[['ia','Assistant','bolt'],['cours','Cours','note'],['fiches','Fiches','book'],['rev','Réviser','check'],['src','Sources','search']].map(t=>`<button class="tb ${eT===t[0]?'on':''}" data-y="et" data-v="${t[0]}">${ic(t[2])}${t[1]}</button>`).join('')+'</div>';
  if(!S.gk&&!S.qk&&eT==='ia')x+=`<div class="box next" style="margin-top:16px"><div class="lab">À faire une fois</div><b class="t">Brancher l’IA</b><p>Crée une clé gratuite sur aistudio.google.com (« Get API key ») et colle-la ici. Elle sert à l’assistant, à la transcription des cours et aux voix.</p><div class="form" style="margin-top:12px"><div class="ln"><input id="gkI" type="password" placeholder="Clé API Gemini"><button class="add" data-y="gk">OK</button></div></div></div>`;
  if(eT==='ia'){if(curC)x+=`<div class="alert">Contexte : cours « ${esc(curC.n)} ». <a href="#" data-y="noctx">Retirer</a></div>`;
   x+='<div class="tabs">'+PRE.map((p,i)=>`<button class="tb" data-y="pre" data-v="${i}">${p[0]}</button>`).join('')+'</div><div class="chat">'+(S.chat.length?S.chat.map((m,i)=>`<div class="msg ${m.r}${m.e?' err':''}">${m.i?'<span class="tag">photo jointe</span><br>':''}${m.r==='m'?md(m.t):esc(m.t).replace(/\n/g,'<br>')}${m.r==='m'&&!m.e?`<div class="mact"><button data-y="mspk" data-v="${i}">Écouter</button><button data-y="mcpy" data-v="${i}">Copier</button><button data-y="mnote" data-v="${i}">→ Note</button></div>`:''}</div>`).join(''):'<div class="sub" style="padding:18px 0">Pose une question, envoie la photo d’un tableau, d’un article ou d’un schéma, ou choisis un modèle ci-dessus.</div>')+(busy?'<div class="msg m"><span class="dots"><i></i><i></i><i></i></span></div>':'')+'</div>';
   x+=`<div class="comp">${pend?'<span class="tag ok">photo prête</span>':''}<label class="cbtn">${ic('plus')}<input type="file" accept="image/*" id="phI" hidden></label><textarea id="chI" rows="1" placeholder="Message…"></textarea><button class="cbtn send" data-y="send">${ic('up')}</button></div>${S.chat.length?'<button class="ghost" data-y="clr">Nouvelle conversation</button>':''}`}
- if(eT==='cours'){if(rec)x+=`<div class="recw on"><div class="lab">Enregistrement en cours</div><b id="recT">${mm(Math.floor((Date.now()-rec.t0)/1000))}</b><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><button class="go stop" data-y="rstop">Terminer et transcrire</button><div class="sub">${rec.c.fm?'Mode gratuit : garde l’écran allumé pour que le texte continue. L’audio est aussi gardé, tu pourras le passer à l’IA plus tard.':'Durée libre, écran allumé ou éteint. L’audio est sauvegardé et transcrit par l’IA toutes les 5 minutes.'}</div></div><div class="lab sec">Transcription en direct</div><div class="sub" id="liveS"></div><div class="box" id="live" style="max-height:42vh;overflow:auto;line-height:1.55"></div>`;
+ if(eT==='cours'){if(rec)x+=`<div class="recw on"><div class="lab">Enregistrement en cours</div><b id="recT">${mm(Math.floor((Date.now()-rec.t0)/1000))}</b><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><button class="ghost" data-y="mark" style="margin-bottom:8px">⭐ Important (${(rec.c.marks||[]).length})</button><button class="go stop" data-y="rstop">Terminer et transcrire</button><div class="sub">${rec.c.fm?'Mode gratuit : garde l’écran allumé pour que le texte continue. L’audio est aussi gardé, tu pourras le passer à l’IA plus tard.':'Durée libre, écran allumé ou éteint. L’audio est sauvegardé et transcrit par l’IA toutes les 5 minutes.'}</div></div><div class="lab sec">Transcription en direct</div><div class="sub" id="liveS"></div><div class="box" id="live" style="max-height:42vh;overflow:auto;line-height:1.55"></div>`;
   else if(curC){const c=curC,f=c.fiche;x+=`<button class="back" data-y="cback">${ic('back')} tous les cours</button><input id="cN" value="${esc(c.n)}" style="font:var(--hw) 24px var(--D);border:0;background:none;padding:0;border-radius:0"><div class="sub">${whenTxt(c.at)} · ${mm(c.dur||0)}${c.size?' · '+MB(c.size):''} · ${c.busy?'transcription en cours…':c.tr?'transcrit':'pas encore transcrit'}</div>`;
    if(c.err)x+=`<div class="alert bad">${esc(c.err)}</div>`;
    x+=`<div class="two" style="margin-top:6px"><button class="go" data-y="fiche" style="margin:8px 0 0;font-size:14.500px;padding:15px 8px" ${c.tr?'':'disabled'}>${busy?'Création…':f?'Refaire la fiche':'Créer la fiche'}</button><button class="ghost" data-y="ask" style="padding:15px 8px">Interroger ce cours</button><button class="ghost" data-y="${c.fm&&c.tr?'tidy':'trall'}">${c.fm&&c.tr?'Mettre au propre (IA)':c.tr?'Retranscrire':'Transcrire'}</button><button class="ghost" data-y="cshare">Partager</button></div>`+xDl(c);
-   if(f){x+=`<div class="lab sec">Résumé</div><div class="sub" style="color:var(--tx);font-size:14.500px">${esc(f.resume)}</div><div class="lab sec">Idées clés</div>`+f.points.map(p=>`<div class="row"><span class="g" style="white-space:normal">${esc(p)}</span></div>`).join('');
+   if(f){x+=`<button class="ghost" data-y="fspk">▶ Écouter le résumé</button><div class="lab sec">Résumé</div><div class="sub" style="color:var(--tx);font-size:14.500px">${esc(f.resume)}</div><div class="lab sec">Idées clés</div>`+f.points.map(p=>`<div class="row"><span class="g" style="white-space:normal">${esc(p)}</span></div>`).join('');
     if((f.definitions||[]).length)x+='<div class="lab sec">Définitions</div>'+f.definitions.map(d=>`<div class="row"><span class="g"><b>${esc(d.terme)}</b><span class="m" style="white-space:normal">${esc(d.def)}</span></span></div>`).join('');
     if((f.cartes||[]).length){const k=f.cartes[cardI%f.cartes.length];x+=`<div class="lab sec">Cartes · ${cardI%f.cartes.length+1} / ${f.cartes.length}</div><button class="flash ${cardF?'f':''}" data-y="flip"><span class="lab">${cardF?'Réponse':'Question'}</span><b>${esc(cardF?k.r:k.q)}</b><span class="sub">${cardF?'':'Touche pour voir la réponse'}</span></button><div class="two"><button class="ghost" data-y="cprev">Précédente</button><button class="ghost" data-y="cnext">Suivante</button></div>`}
     if((f.questions||[]).length)x+='<div class="lab sec">Questions probables</div>'+f.questions.map(q=>`<div class="row"><span class="g" style="white-space:normal">${esc(q)}</span></div>`).join('')}
    x+=`<div class="lab sec">Transcription</div><div class="sub tr" style="color:var(--tx)">${c.tr?md(c.tr):c.busy&&liveTxt(c)?esc(liveTxt(c)):'Pas encore de transcription. '+(S.gk?'Touche « Transcrire ».':'Ajoute ta clé Gemini dans Profil, puis « Transcrire ».')}</div><button class="ghost" data-y="cdel" style="color:var(--c);margin-top:18px">Supprimer ce cours</button>`}
-  else{x+=`<div class="recw"><button class="recb" data-y="rstart"><i></i></button><b>Enregistrer un cours</b><div class="tabs" style="justify-content:center;margin:12px 0 6px"><button class="tb ${S.trm!=='free'?'on':''}" data-y="trm" data-v="ia">IA · propre</button><button class="tb ${S.trm==='free'?'on':''}" data-y="trm" data-v="free">Gratuit · sans IA</button></div><div class="sub">${S.trm==='free'?'Texte en direct par la reconnaissance vocale du téléphone : illimité et gratuit, mais écran allumé et texte plus brut. L’audio est gardé pour une mise au propre plus tard.':'Transcription par Gemini toutes les 5 minutes, propre avec intertitres. Marche écran éteint. Consomme ton quota Gemini.'}</div><label class="ghost" style="display:block">Importer un audio du dictaphone<input type="file" accept="audio/*" id="auI" hidden></label></div>`;
-   x+=xSearch()+'<div class="lab sec">Mes cours</div>'+(S.courses.map(c=>`<button class="row" data-y="copen" data-v="${c.id}">${ic('note')}<span class="g"><b>${esc(c.n)}</b><span class="m">${whenTxt(c.at)} · ${mm(c.dur||0)}${c.f?' · fiche prête':''}</span></span></button>`).join('')||'<div class="sub">Aucun cours pour l’instant.</div>')}}
+  else{x+=`<div class="recw"><button class="recb" data-y="rstart"><i></i></button><b>Enregistrer un cours</b><div class="tabs" style="justify-content:center;margin:12px 0 6px"><button class="tb ${S.trm!=='free'?'on':''}" data-y="trm" data-v="ia">IA · propre</button><button class="tb ${S.trm==='free'?'on':''}" data-y="trm" data-v="free">Gratuit · sans IA</button></div><div class="form" style="margin:10px 0 4px;width:100%"><div class="ln"><input id="vocI" placeholder="Noms à bien écrire : M. Zied, Freeman, ISO 13485…" value="${esc(S.voc||'')}"><button class="add" data-y="voc">OK</button></div></div><div class="sub">${S.trm==='free'?'Texte en direct par la reconnaissance vocale du téléphone : illimité et gratuit, mais écran allumé et texte plus brut. L’audio est gardé pour une mise au propre plus tard.':'Transcription par Gemini toutes les 5 minutes, propre avec intertitres. Marche écran éteint. Consomme ton quota Gemini.'}</div><label class="ghost" style="display:block">Importer un audio du dictaphone<input type="file" accept="audio/*" id="auI" hidden></label></div>`;
+   x+=xSem()+xSearch()+'<div class="lab sec">Mes cours</div>'+(S.courses.map(c=>`<button class="row" data-y="copen" data-v="${c.id}">${ic('note')}<span class="g"><b>${esc(c.n)}</b><span class="m">${whenTxt(c.at)} · ${mm(c.dur||0)}${c.f?' · fiche prête':''}</span></span></button>`).join('')||'<div class="sub">Aucun cours pour l’instant.</div>')}}
  if(eT==='fiches'){const l=S.courses.filter(c=>c.f);x+='<div class="lab sec">Fiches de révision</div>'+(l.map(c=>`<button class="row" data-y="copen" data-v="${c.id}">${ic('book')}<span class="g"><b>${esc(c.n)}</b><span class="m">${whenTxt(c.at)}</span></span></button>`).join('')||'<div class="sub">Enregistre un cours puis touche « Créer la fiche » : résumé, idées clés, définitions, cartes et questions probables apparaîtront ici.</div>')+'<div class="lab sec">Méthode</div>'+[['Réviser par rappel actif','Cache la réponse, formule-la à voix haute, puis vérifie : c’est ce que font les cartes.'],['Espacer','Revois une fiche le lendemain, puis à 3 jours, puis à une semaine. Mets un rappel dans Orga.'],['Interroger le cours','Bouton « Interroger ce cours » : l’assistant répond à partir de ta transcription.']].map(t=>`<div class="box"><b class="t" style="margin-top:0">${t[0]}</b><p>${t[1]}</p></div>`).join('')}
  if(eT==='rev')x+=xRev();if(eT==='src')x+=xSrc();
  P(x,still);if(rec&&eT==='cours')liveUp(rec.c);if(eT==='ia'&&!still)body.scrollTop=body.scrollHeight}
@@ -2233,6 +2303,9 @@ body.addEventListener('click',async e=>{const t=e.target.closest('[data-y]');if(
   case'copen':curC=(await idb.get('course:'+v))||null;if(!curC)return toast('Cours introuvable');cardI=0;cardF=false;eT='cours';return rEtu();
   case'cback':{const n=$('#cN');if(n&&curC&&n.value.trim()&&n.value!==curC.n){curC.n=n.value.trim();const m=S.courses.find(x=>x.id===curC.id);if(m)m.n=curC.n;save();idb.set('course:'+curC.id,curC)}curC=null;return rEtu()}
   case'qk':S.qk=$('#qkI').value.trim();save();toast(S.qk?'Clé Groq enregistrée':'Clé Groq retirée');return render(true);
+  case'voc':S.voc=$('#vocI').value.trim();save();toast('Vocabulaire enregistré : il guide la transcription');return rEtu(true);
+  case'mark':if(rec){const c=rec.c,t=Date.now()-rec.t0;(c.marks=c.marks||[]).push(t);if(c.fm)(c.free=c.free||[]).push('⭐ [Passage marqué important]');buzz(40);toast('⭐ Passage marqué');rEtu(true)}return;
+  case'fspk':{const f=curC&&curC.fiche;if(f)speak((f.titre||'')+'. '+f.resume+' Idées clés. '+(f.points||[]).join('. '));return}
   case'trm':S.trm=v;save();return rEtu(true);
   case'tidy':{const c=curC;if(!c||!c.tr)return;toast('Mise au propre…');try{c.tr=await tidyLong(c.tr);c.fm=0;await idb.set('course:'+c.id,c);toast('Texte mis au propre')}catch(e){toast(errTxt(e))}return rEtu(true)}
   case'fiche':return mkFiche(curC);case'trall':return trAll(curC);
@@ -2271,8 +2344,8 @@ async function gtfsLoad(force){const old=await idb.get('gtfs:mb').catch(()=>null
   await zipLines(buf,Z['stop_times.txt'],(a,h)=>{const t=T[sk(a[h.trip_id])];if(!t)return;const tm=(a[h.arrival_time]||a[h.departure_time]).split(':');t.r.push([sk(a[h.stop_id]),(+tm[0])*3600+(+tm[1])*60+(+tm[2]||0),+a[h.stop_sequence]]);ST[sk(a[h.stop_id])]=1});
   await zipLines(buf,Z['stops.txt'],(a,h)=>{const id=sk(a[h.stop_id]);if(ST[id])stops[id]={n:a[h.stop_name],ll:[+a[h.stop_lat],+a[h.stop_lon]]}});
   for(const k in T){T[k].r.sort((x,y)=>x[2]-y[2]);T[k].r=T[k].r.map(x=>[x[0],x[1]])}
-  const D={at:Date.now(),R:[...R],T,SV,CD,stops};await idb.set('gtfs:mb',D);LV.D=D;LV.err='';return D}
- catch(e){LV.err='Horaires Le Met’ indisponibles ('+(e.message||e)+')';return LV.D=old||null}finally{LV.busy=0}}
+  const D={at:Date.now(),R:[...R],T,SV,CD,stops};await idb.set('gtfs:mb',D);LV.D=D;LV.err='';for(const k in GLL)delete GLL[k];return D}
+ catch(e){LV.err=/fetch|network/i.test(String(e.message||e))?'Serveurs Le Met’ injoignables pour l’instant, nouvel essai automatique':'Horaires Le Met’ indisponibles ('+(e.message||e)+')';return LV.D=old||null}finally{LV.busy=0}}
 /* --- protobuf minimal (GTFS-RT) --- */
 function pb(u8,s=0,e=u8.length){const f={},dv=new DataView(u8.buffer,u8.byteOffset,u8.byteLength);let p=s;
  const vi=()=>{let r=0,m=1,b;do{b=u8[p++];r+=(b&127)*m;m*=128}while(b&128);return r};
@@ -2287,20 +2360,21 @@ function rtParse(u8){const F=pb(u8),tu={},veh=[];
  return{tu,veh}}
 async function rtPull(){if(!navigator.onLine||!LV.D||Date.now()-LV.at<25000)return;LV.at=Date.now();
  try{const [a,b]=await Promise.all([xget(LV.tu).then(r=>r.arrayBuffer()).catch(()=>null),xget(LV.vp).then(r=>r.arrayBuffer()).catch(()=>null)]);
-  const tu=a?rtParse(new Uint8Array(a)).tu:{},vp=b?rtParse(new Uint8Array(b)).veh:[];LV.rt=tu;LV.veh=vp.filter(v=>LV.D.T[sk(v.trip)]);LV.ok=!!(a||b);liveDraw()}catch(e){LV.ok=false}}
+  const tu=a?rtParse(new Uint8Array(a)).tu:{},vp=b?rtParse(new Uint8Array(b)).veh:[];LV.rt=tu;LV.veh=vp.filter(v=>LV.D.T[sk(v.trip)]);LV.ok=!!(a||b);liveDraw();busTrack()}catch(e){LV.ok=false}}
 /* --- calculs --- */
 const ymd=d=>d.getFullYear()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0');
 function svcOn(sv,d){const D=LV.D,k=ymd(d),x=D.CD[sv]&&D.CD[sv][k];if(x===1)return true;if(x===2)return false;const c=D.SV[sv];return!!(c&&k>=c.a&&k<=c.b&&c.w[(d.getDay()+6)%7])}
+const GLL={};function gtfsLL(n){if(GLL[n]!==undefined)return GLL[n];const ids=sidsOf(n);if(!ids.length)return GLL[n]=null;let a=0,b=0;let k=0;ids.forEach(i=>{const l=LV.D.stops[i].ll;if(Math.abs(l[0])>1){a+=l[0];b+=l[1];k++}});return GLL[n]=k?[a/k,b/k]:null}
 function sidsOf(name){const D=LV.D;if(!D)return[];const n=nrm(name),out=[];for(const id in D.stops){const s=nrm(D.stops[id].n);if(s===n||s.includes(n)||n.includes(s))out.push(id)}return out}
 /* prochains passages à `from` en allant vers `to` (noms d’arrêts) */
 function nextBus(from,to,lim=4){const D=LV.D;if(!D)return[];const A=new Set(sidsOf(from)),B=new Set(sidsOf(to));if(!A.size||!B.size)return[];const now=Date.now(),res=[];
  for(const dd of[-1,0]){const day=new Date();day.setDate(day.getDate()+dd);day.setHours(0,0,0,0);
   for(const id in D.T){const t=D.T[id];if(!svcOn(t.sv,day))continue;const ia=t.r.findIndex(x=>A.has(x[0]));if(ia<0)continue;const ib=t.r.findIndex((x,i)=>i>ia&&B.has(x[0]));if(ib<0)continue;
    let at=day.getTime()+t.r[ia][1]*1000,arr=day.getTime()+t.r[ib][1]*1000,rt=false;const u=LV.rt&&LV.rt[id];const ka=sk(t.r[ia][0]),kb=sk(t.r[ib][0]);
-   if(u){if(u.m.cancel)continue;const pa=u.m[ka],pbv=u.m[kb];
+   if(u){if(u.m.cancel){LV.cx=(LV.cx||0)+1;continue}const pa=u.m[ka],pbv=u.m[kb];
     if(typeof pa==='number'){at=pa;rt=true}else if(pa&&pa.d!=null){at+=pa.d*1000;rt=true}else if(u.dl!=null){at+=u.dl*1000;rt=true}
     if(typeof pbv==='number')arr=pbv;else if(pbv&&pbv.d!=null)arr+=pbv.d*1000;else if(u.dl!=null)arr+=u.dl*1000}
-   if(at>now-30000&&at<now+3*3600e3)res.push({at,arr,rt,trip:id,hs:t.hs})}}
+   if(at>now-30000&&at<now+3*3600e3)res.push({at,arr,rt,trip:id,hs:t.hs,dl:Math.round((at-(day.getTime()+t.r[ia][1]*1000))/6e4)})}}
  return res.sort((x,y)=>x.at-y.at).slice(0,lim)}
 const minTo=t=>Math.max(0,Math.round((t-Date.now())/60000));
 const busTxt=l=>l.length?l.map(b=>`<span class="nb ${b.rt?'rt':''}">${minTo(b.at)<1?'à quai':minTo(b.at)+' min'}</span>`).join(''):'<span class="nb off">pas de passage prévu</span>';
@@ -2321,13 +2395,20 @@ function homeBus(inner){const ns=nearStop();if(!LV.D)return inner?'':`<div id="n
  <div class="m tiny">${LV.ok?'● temps réel Le Met’':'horaires théoriques · temps réel indisponible'}</div>`;
  return inner?body:`<div id="nbH" class="box live">${body}</div>`}
 let lvT=null;async function liveBoot(){await gtfsLoad();if((mod==='nav'||mod==='today')&&!T&&!cur)render(true);rtPull();clearInterval(lvT);lvT=setInterval(()=>{if(document.visibilityState==='visible'){rtPull();const h=$('#nbH');if(h&&LV.D)h.innerHTML=homeBus(true)}},30000)}
+
+/* suivi automatique des arrêts dans le bus : GPS + position réelle du Mettis + horaires temps réel */
+function busTrack(){if(!T||!T.bus||T.stage!==1||!LV.D)return;const st=T.bus.stops,now=Date.now();let v=null;
+ if(me)LV.veh.forEach(x=>{const d=hav(me,x.ll);if(d<250&&(!v||d<v.d))v={d,x}});
+ if(v){T.vtrip=sk(v.x.trip);const s=LV.D.stops[sk(v.x.sid)];if(s){const k=nrm(s.n),i=st.findIndex(n=>{const m=nrm(n);return m===k||m.includes(k)||k.includes(m)});if(i>0){const j=v.x.st===1?i:i-1;if(j>T.chk)check(j)}}}
+ if(T&&T.stage===1&&T.vtrip&&LV.rt&&LV.rt[T.vtrip]){const u=LV.rt[T.vtrip];for(let i=st.length-1;i>T.chk;i--){let t=null;for(const id of sidsOf(st[i])){const q=u.m[sk(id)];if(typeof q==='number'){t=q;break}}if(t&&t<now-15000){check(i);break}}}}
+setInterval(()=>{if(T&&T.bus&&T.stage===1){rtPull();busTrack();if(T&&T.stage===1&&mod)renderNav()}},15000);
 /* ============ Études+ : téléchargements, révision espacée, recherche, sources ============ */
 const MB=n=>n>=1e9?(n/1e9).toFixed(2).replace('.',',')+' Go':(n/1e6).toFixed(n<1e7?1:0).replace('.',',')+' Mo';
 function dlBlob(b,name){const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},8000)}
 const fname=c=>(c.n||'cours').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^\w\- ]+/g,'').trim().replace(/\s+/g,'-').slice(0,60)||'cours';
 async function audSize(c){if(c.size)return c.size;let s=0;for(let k=0;k<(c.seg||1);k++){const b=await idb.get('aud:'+c.id+':'+k).catch(()=>null);if(b)s+=b.size}c.size=s;return s}
-/* MP3 mono 16 kHz 32 kbit/s : 4 h ≈ 58 Mo */
-async function mp3Of(c,prog){const ac=new(window.AudioContext||window.webkitAudioContext)({sampleRate:16000}),enc=new lamejs.Mp3Encoder(1,16000,32),out=[];let ok=0;
+/* MP3 mono 44,1 kHz 96 kbit/s : 4 h ≈ 173 Mo */
+async function mp3Of(c,prog){const ac=new(window.AudioContext||window.webkitAudioContext)({sampleRate:44100}),enc=new lamejs.Mp3Encoder(1,44100,96),out=[];let ok=0;
  try{for(let k=0;k<(c.seg||1);k++){const b=await idb.get('aud:'+c.id+':'+k).catch(()=>null);if(!b)continue;let buf;try{buf=await ac.decodeAudioData(await b.arrayBuffer())}catch(_){continue}ok++;
   const f=buf.getChannelData(0),N=1152*24;for(let i=0;i<f.length;i+=N){const n=Math.min(N,f.length-i),s=new Int16Array(n);for(let j=0;j<n;j++){const v=f[i+j];s[j]=v<-1?-32768:v>1?32767:v*32767}
    const m=enc.encodeBuffer(s);if(m.length)out.push(new Uint8Array(m.buffer,m.byteOffset,m.length));if(i%(N*20)===0){prog&&prog(Math.round(((k+i/f.length)/(c.seg||1))*100));await new Promise(r=>setTimeout(r,0))}}}
@@ -2338,7 +2419,7 @@ let dlBusy=0;
 async function dlMp3(c,share){if(dlBusy)return;dlBusy=1;const st=$('#dlS');try{const b=await mp3Of(c,p=>{if(st)st.textContent='Conversion MP3… '+p+' %'});if(st)st.textContent='MP3 prêt · '+MB(b.size);
   const f=new File([b],fname(c)+'.mp3',{type:'audio/mpeg'});if(share){const files=[f];if(c.tr)files.push(new File([txtOf(c)],fname(c)+'.txt',{type:'text/plain'}));if(navigator.canShare&&navigator.canShare({files}))await navigator.share({files,title:c.n});else dlBlob(f,f.name)}else dlBlob(f,f.name)}
  catch(e){if(e.name==='AbortError'){}else{if(st)st.textContent='Conversion impossible : téléchargement de l’audio d’origine.';for(let k=0;k<(c.seg||1);k++){const b=await idb.get('aud:'+c.id+':'+k).catch(()=>null);if(b)dlBlob(b,fname(c)+(c.seg>1?'-partie'+(k+1):'')+'.'+(/mp4|m4a/.test(b.type)?'m4a':/mpeg/.test(b.type)?'mp3':'webm'))}}}finally{dlBusy=0}}
-function xDl(c){return`<div class="lab sec">Fichiers</div><div class="two"><button class="ghost" data-y="dlmp3">Audio MP3${c.dur?' · ≈ '+MB(c.dur*4000):''}</button><button class="ghost" data-y="dltxt" ${c.tr?'':'disabled'}>Texte .txt</button></div><button class="ghost" data-y="dlshare">Envoyer audio + texte…</button><div class="m tiny" id="dlS" style="margin-top:6px">Enregistré : ${c.size?MB(c.size):'—'} · MP3 compressé pour la voix (4 h ≈ 58 Mo).</div>`}
+function xDl(c){return`<div class="lab sec">Fichiers</div><div class="two"><button class="ghost" data-y="dlmp3">Audio MP3${c.dur?' · ≈ '+MB(c.dur*12000):''}</button><button class="ghost" data-y="dltxt" ${c.tr?'':'disabled'}>Texte .txt</button></div><button class="ghost" data-y="dlshare">Envoyer audio + texte…</button><div class="m tiny" id="dlS" style="margin-top:6px">Enregistré : ${c.size?MB(c.size):'—'} · enregistré en 128 kbit/s, MP3 en 96 kbit/s (4 h ≈ 173 Mo).</div>`}
 /* ---- Révision espacée (boîtes de Leitner) ---- */
 const LEIT=[0,1,3,7,16,35];let RV=null;
 async function revLoad(){S.srs=S.srs||{};const now=Date.now(),cards=[];let fresh=0;
@@ -2349,7 +2430,7 @@ function xRev(){if(!RV)return'<div class="sub">Chargement…</div>';const st=S.s
  if(!RV.total)return x+'<div class="sub" style="padding:14px 0">Rien à réviser aujourd’hui. Crée des fiches depuis tes cours : leurs cartes arrivent ici automatiquement.</div>';
  if(RV.i>=RV.cards.length)return x+`<div class="box next"><b class="t">Session terminée</b><p>${RV.ok} / ${RV.total} cartes sues. Reviens demain pour les suivantes.</p></div><button class="ghost" data-y="revgo">Relancer</button>`;
  const k=RV.cards[RV.i];return x+`<div class="lab sec">Carte ${RV.i+1} / ${RV.cards.length} · ${esc(k.n)}${k.nw?' · nouvelle':''}</div><div class="box" style="min-height:150px"><b class="t" style="font-size:18px;line-height:1.35">${esc(k.q)}</b>${RV.show?`<div class="sub" style="color:var(--tx);margin-top:14px;padding-top:14px;border-top:1px solid var(--ln)">${esc(k.r)}</div>`:''}</div>`+
-  (RV.show?`<div class="two"><button class="ghost" data-y="revno" style="color:var(--c)">À revoir</button><button class="go" data-y="revok" style="margin:8px 0 0">Je savais</button></div>`:`<button class="go" data-y="revshow">Voir la réponse</button>`)}
+  (RV.show?`<div class="two"><button class="ghost" data-y="revno" style="color:var(--c)">À revoir</button><button class="go" data-y="revok" style="margin:8px 0 0">Je savais</button></div>`:`<button class="go" data-y="revshow">Voir la réponse</button><button class="ghost" data-y="oral">🎙 Répondre à l’oral</button>${RV.oral?`<div class="m tiny" style="margin-top:6px">${esc(RV.oral)}</div>`:''}`)}
 function revMark(ok){const k=RV.cards[RV.i],s=S.srs[k.id]||{b:0};s.b=ok?Math.min(5,s.b+1):0;s.due=Date.now()+(ok?LEIT[s.b]:0)*864e5+(ok?0:6e5);S.srs[k.id]=s;save();if(ok)RV.ok++;else RV.cards.push(k);RV.i++;RV.show=0}
 /* ---- Recherche dans tous les cours ---- */
 let CQ='',CR=null;
@@ -2370,7 +2451,7 @@ function xSrc(){const L=(S.refs||[]).slice().sort((a,b)=>refTxt(a).localeCompare
 async function studyAct(y,v){const c=curC;switch(y){
  case'dlmp3':if(c)dlMp3(c,false);return 1;case'dlshare':if(c)dlMp3(c,true);return 1;
  case'dltxt':if(c&&c.tr)dlBlob(new Blob([txtOf(c)],{type:'text/plain'}),fname(c)+'.txt');return 1;
- case'revgo':await revLoad();rEtu(true);return 1;case'revshow':RV.show=1;rEtu(true);return 1;case'revok':revMark(1);sfx('ok');rEtu(true);return 1;case'revno':revMark(0);rEtu(true);return 1;
+ case'revgo':await revLoad();rEtu(true);return 1;case'oral':oralQ();return 1;case'revshow':RV.show=1;rEtu(true);return 1;case'revok':revMark(1);sfx('ok');rEtu(true);return 1;case'revno':revMark(0);rEtu(true);return 1;
  case'csearch':await cSearch(($('#cQ')||{}).value||'');rEtu(true);return 1;
  case'doi':await addDoi(($('#doiI')||{}).value||'');rEtu(true);return 1;case'refdel':S.refs=(S.refs||[]).filter(r=>r.doi!==v);save();rEtu(true);return 1;
  case'refcopy':{const t=(S.refs||[]).map(refTxt).sort((a,b)=>a.localeCompare(b,'fr')).join('\n\n');try{await navigator.clipboard.writeText(t);toast('Bibliographie copiée')}catch(_){toast('Copie impossible')}return 1}
@@ -2391,7 +2472,7 @@ const icsDay=d=>{const a=new Date(d);a.setHours(0,0,0,0);const b=a.getTime()+864
 /* prochain créneau, agenda importé en priorité */
 function nextAny(){const i=icsNext(),w=nextEvent();const ii=i?{e:{n:i.n,t:clock(new Date(i.at)),p:S.icsP||'iae',loc:i.loc},at:new Date(i.at),end:i.end}:null;if(ii&&(!w||ii.at<=w.at))return ii;return w}
 /* --- widgets --- */
-function ring(p,txt,sub){const r=44,C=2*Math.PI*r;return`<div class="ring"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="${r}" class="bg"/><circle cx="50" cy="50" r="${r}" class="fg" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-Math.max(0,Math.min(1,p)))}"/></svg><b class="dm">${txt}</b><span>${sub}</span></div>`}
+function ring(p,txt,sub){const r=44,C=2*Math.PI*r;return`<div class="ring"><svg viewBox="0 0 100 100"><defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/></linearGradient></defs><circle cx="50" cy="50" r="${r}" class="bg"/><circle cx="50" cy="50" r="${r}" class="fg" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-Math.max(0,Math.min(1,p)))}"/></svg><b class="dm">${txt}</b><span>${sub}</span></div>`}
 function wHero(){const ne=nextAny(),now=Date.now();
  if(!ne||ne.at-now>18*36e5){const hc=ll(HOME),away=me&&hc&&hav(me,hc)>150;return`<div class="box w x2 hero2"><div class="lab">Rien d’autre de prévu</div><b class="big">${away?'Rentrer':'Journée libre'}</b><p class="sub">${S.icsU?'Aucun cours dans les 18 prochaines heures.':'Connecte ton emploi du temps pour voir tes cours ici, avec l’heure de départ et le bon Mettis.'}</p>${away?`<button class="go" data-p="home">Rentrer · ${est(HOME).replace('′',' min')}</button>`:''}</div>`}
  const li=leaveInfo(ne),p=li.p,started=ne.at<=now;let bus='';
@@ -2412,7 +2493,7 @@ function wBus(){return`<button class="box w x2 live" data-mod="nav">${LV.D?homeB
 function wIcs(){if(S.icsU&&!S.icsErr)return'';return`<div class="box w x2"><div class="lab">${S.icsErr?'Emploi du temps · erreur':'Emploi du temps'}</div><p class="sub">${S.icsErr?esc(S.icsErr)+'. Vérifie le lien.':'Colle le lien iCal de ton agenda ADE (Université de Lorraine → ton emploi du temps → Exporter / Lien iCal). Tes cours apparaissent ici, avec l’heure de départ.'}</p><div class="form" style="margin-top:10px"><div class="ln"><input id="icsI" placeholder="https://…ics ou lien ADE" value="${esc(S.icsU||'')}"><button class="add" data-w="ics">OK</button></div></div></div>`}
 function rToday(still){const h=new Date().getHours(),hi=h<6?'Bonne nuit':h<12?'Bonjour':h<18?'Bon après-midi':'Bonsoir';
  let x=`<div class="thead"><div><div class="lab">${new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'})}</div><h1>${hi}${S.nm?', <em>'+esc(S.nm)+'</em>':''}</h1></div><button class="gearb" data-mod="me">${ic('gear')}</button></div>
- <button class="tsearch" data-w="search">${ic('search')}<span>Où vas-tu ?</span></button><div class="wg">`+wHero()+wBus()+wClock()+wWx()+wRec()+wRev()+wDay()+wTodo()+wFocus()+wIcs()+'</div>';
+ <button class="tsearch" data-w="search">${ic('search')}<span>Où vas-tu ?</span></button>`+wGrid();
  const ps=every().filter(p=>p.g==='me');x+='<div class="lab sec">Mes lieux</div><div class="rail">'+ps.map(p=>`<button class="card" data-p="${p.id}"><span class="eta">${est(p)}</span><span class="icn">${ic(p.ic)}</span><b>${esc(p.n)}</b></button>`).join('')+'</div>';
  P(x,still)}
 body.addEventListener('click',async e=>{const t=e.target.closest('[data-w]');if(!t)return;const w=t.dataset.w;
@@ -2422,13 +2503,107 @@ body.addEventListener('click',async e=>{const t=e.target.closest('[data-w]');if(
  if(w==='ics'){S.icsU=($('#icsI').value||'').trim();S.icsErr='';save();toast('Synchronisation de l’agenda…');await icsSync(true);toast(S.icsErr?'Agenda : '+S.icsErr:(S.ics||[]).length+' cours importés');return render(true)}});
 setInterval(()=>{if(mod==='today'&&!T&&!cur&&document.visibilityState==='visible'&&!document.activeElement.matches('input'))rToday(true)},30000);
 setInterval(()=>{const c=$('#wClk');if(c)c.textContent=clock(new Date())},5000);
+/* ============ Autres options : outils avancés ============ */
+let TL='';const SC=[];
+async function notif(title,body,tag){try{if('Notification'in window&&Notification.permission==='granted'){const r=navigator.serviceWorker&&await navigator.serviceWorker.getRegistration();const o={body,tag,icon:'cap-192.png',vibrate:[200,100,200],renotify:true};if(r)r.showNotification(title,o);else new Notification(title,o)}}catch(_){}try{navigator.vibrate&&navigator.vibrate([200,100,200])}catch(_){}}
+/* rappel de départ */
+setInterval(()=>{if(!S.lvN)return;const ne=nextAny();if(!ne)return;const li=leaveInfo(ne);if(li.inMin==null)return;const k='lv'+ne.at.getTime();if(S.lvDone===k)return;
+ if(li.inMin<=Math.max(2,S.lvM||10)&&li.inMin>=-2){S.lvDone=k;save();let bus='';if(li.p&&me&&LV.D){const pl=planBus(me,li.p);if(pl){const nb=nextBus(pl.stops[0],pl.stops[pl.stops.length-1],2).filter(b=>b.at>Date.now()+pl.w1/WALK*1000);if(nb[0])bus=' · Mettis '+clock(new Date(nb[0].at))+' à '+pl.stops[0]}}
+  notif(li.inMin<=0?'Pars maintenant':'Pars dans '+li.inMin+' min',ne.e.n+' à '+clock(ne.at)+bus,'leave');say((li.inMin<=0?'Il faut partir maintenant':'Départ dans '+li.inMin+' minutes')+' pour '+ne.e.n+'.',1)}},60000);
+/* moyenne */
+const avg=()=>{const L=S.notes2||[];let s=0,c=0;L.forEach(x=>{if(x.v!==''&&!isNaN(+x.v)){s+=+x.v*(+x.c||1);c+=+x.c||1}});return{m:c?s/c:null,s,c}};
+function xAvg(){const L=S.notes2||[],a=avg(),T=+(S.tgt||10),R=+(S.remc||0);const need=R>0&&a.c?(T*(a.c+R)-a.s)/R:null;
+ return `<div class="box w x2 hero2"><div class="hrow"><div><div class="lab">Moyenne pondérée</div><b class="dm huge">${a.m==null?'—':a.m.toFixed(2).replace('.',',')}</b><p class="sub">${a.c?'sur '+a.c+' coefficient'+(a.c>1?'s':''):'ajoute tes notes'}</p></div>${a.m!=null?ring(a.m/20,Math.round(a.m),'/20'):''}</div>
+ ${need!=null?`<div class="lead">${need<=0?'Objectif '+T+' déjà assuré':need>20?'Objectif '+T+' hors d’atteinte':'Il te faut '+need.toFixed(2).replace('.',',')+' de moyenne sur les '+R+' coef. restants'}</div>`:''}</div>
+ <div class="form" style="margin-top:12px"><div class="ln"><input id="avN" placeholder="Matière"><input id="avV" type="number" step="0.01" placeholder="Note" style="max-width:84px"><input id="avC" type="number" step="0.5" placeholder="Coef" style="max-width:70px"><button class="add" data-t="avadd">+</button></div>
+ <div class="ln"><input id="avT" type="number" step="0.5" placeholder="Objectif (ex. 12)" value="${S.tgt||''}"><input id="avR" type="number" step="0.5" placeholder="Coef. restants" value="${S.remc||''}"><button class="add" data-t="avtgt">OK</button></div></div>`+
+ L.map((x,i)=>`<div class="row"><span class="g"><b>${esc(x.n||'Note')}</b><span class="m">coef ${x.c||1}</span></span><span class="r"><b class="dm" style="font-size:22px">${String(x.v).replace('.',',')}</b><button class="ghost" data-t="avdel" data-v="${i}" style="margin:0 0 0 10px;padding:8px 10px;width:auto">✕</button></span></div>`).join('')}
+/* échéances */
+function xDl2(){const L=(S.dls||[]).slice().sort((a,b)=>a.at-b.at);return `<div class="form"><div class="ln"><input id="dlN" placeholder="Examen, rendu, dossier…"></div><div class="ln"><input id="dlD" type="datetime-local"><button class="add" data-t="dladd">Ajouter</button></div></div>`+
+ (L.length?L.map(d=>{const ms=d.at-Date.now(),days=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5);return `<div class="row ${ms<0?'done':''}"><span class="g"><b>${esc(d.n)}</b><span class="m">${new Date(d.at).toLocaleString('fr-FR',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}</span></span><span class="r"><b class="dm" style="font-size:22px;color:${ms>0&&ms<3*864e5?'var(--c)':'var(--tx)'}">${ms<0?'passé':days>0?days+' j':h+' h'}</b><button class="ghost" data-t="dldel" data-v="${d.at}" style="margin:0 0 0 10px;padding:8px 10px;width:auto">✕</button></span></div>`}).join(''):'<div class="sub" style="padding:12px 0">Aucune échéance. Les 3 derniers jours passent en rouge.</div>')}
+/* scanner → PDF */
+async function scanAdd(files){for(const f of files){const im=await new Promise((ok,ko)=>{const i=new Image();i.onload=()=>ok(i);i.onerror=ko;i.src=URL.createObjectURL(f)});const k=Math.min(1,1700/Math.max(im.width,im.height)),w=Math.round(im.width*k),h=Math.round(im.height*k),cv=document.createElement('canvas');cv.width=w;cv.height=h;const x=cv.getContext('2d');x.drawImage(im,0,0,w,h);
+ if(S.scBW!==0){const d=x.getImageData(0,0,w,h),p=d.data;for(let i=0;i<p.length;i+=4){let g=.3*p[i]+.59*p[i+1]+.11*p[i+2];g=(g-128)*1.6+150;g=g<0?0:g>255?255:g;p[i]=p[i+1]=p[i+2]=g}x.putImageData(d,0,0)}
+ const b=await new Promise(r=>cv.toBlob(r,'image/jpeg',.82));SC.push({w,h,b,u:URL.createObjectURL(b)})}}
+async function scanPdf(){const enc=new TextEncoder(),parts=[],offs=[];let len=0;const add=x=>{const u=typeof x==='string'?enc.encode(x):x;parts.push(u);len+=u.length};const obj=(n,body)=>{offs[n]=len;add(n+' 0 obj\n');body();add('\nendobj\n')};
+ const n=SC.length,W=595,H=842;add('%PDF-1.4\n');obj(1,()=>add('<< /Type /Catalog /Pages 2 0 R >>'));obj(2,()=>add('<< /Type /Pages /Count '+n+' /Kids ['+SC.map((_,i)=>(3+i*3)+' 0 R').join(' ')+'] >>'));
+ for(let i=0;i<n;i++){const s=SC[i],pg=3+i*3,img=pg+1,ct=pg+2,k=Math.min((W-40)/s.w,(H-40)/s.h),dw=s.w*k,dh=s.h*k,dx=(W-dw)/2,dy=(H-dh)/2,jp=new Uint8Array(await s.b.arrayBuffer()),cs=`q ${dw.toFixed(2)} 0 0 ${dh.toFixed(2)} ${dx.toFixed(2)} ${dy.toFixed(2)} cm /Im0 Do Q`;
+  obj(pg,()=>add(`<< /Type /Page /Parent 2 0 R /MediaBox [0 0 ${W} ${H}] /Resources << /XObject << /Im0 ${img} 0 R >> >> /Contents ${ct} 0 R >>`));
+  obj(img,()=>{add(`<< /Type /XObject /Subtype /Image /Width ${s.w} /Height ${s.h} /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length ${jp.length} >>\nstream\n`);add(jp);add('\nendstream')});
+  obj(ct,()=>add(`<< /Length ${cs.length} >>\nstream\n${cs}\nendstream`))}
+ const xr=len,N=3+n*3;add('xref\n0 '+N+'\n0000000000 65535 f \n');for(let i=1;i<N;i++)add(String(offs[i]).padStart(10,'0')+' 00000 n \n');add('trailer\n<< /Size '+N+' /Root 1 0 R >>\nstartxref\n'+xr+'\n%%EOF');return new Blob(parts,{type:'application/pdf'})}
+function xScan(){return `<p class="sub">Photographie tes documents, tableaux ou polycopiés : l’appli les redresse en contraste et les assemble en un seul PDF.</p><label class="go" style="display:block;text-align:center;cursor:pointer">${ic('plus')} Ajouter des pages<input type="file" accept="image/*" capture="environment" multiple id="scI" hidden></label>
+ <div class="tabs" style="margin-top:8px"><button class="tb ${S.scBW!==0?'on':''}" data-t="scbw" data-v="1">Document (N&B net)</button><button class="tb ${S.scBW===0?'on':''}" data-t="scbw" data-v="0">Photo couleur</button></div>
+ ${SC.length?`<div class="scg">${SC.map((s,i)=>`<div class="scp"><img src="${s.u}" alt=""><b>${i+1}</b><button data-t="scdel" data-v="${i}">✕</button></div>`).join('')}</div><div class="two"><button class="go" data-t="scpdf" style="margin:8px 0 0">PDF · ${SC.length} page${SC.length>1?'s':''}</button><button class="ghost" data-t="scclr">Vider</button></div>`:''}`}
+/* page Autres options */
+const TOOLS=[['avg','Calculateur de moyenne','Notes, coefficients, note nécessaire pour ton objectif','star'],['scan','Scanner → PDF','Photos de documents assemblées en un PDF propre','book'],['dl','Échéances','Examens et rendus avec compte à rebours','check'],['lv','Rappel de départ','Notification quand il faut partir pour ton prochain cours','bus']];
+function rTools(still){const t=TOOLS.find(x=>x[0]===TL);let x=head1('Profil & réglages',t?t[1]:'Autres options');
+ if(t)x+=`<button class="back" data-t="home">${ic('back')} toutes les options</button>`;
+ if(!TL){x+=`<div class="wg">`+TOOLS.map(o=>`<button class="box w" data-t="open" data-v="${o[0]}"><span class="icn tl">${ic(o[3])}</span><b style="font-size:16px;margin-top:10px">${o[1]}</b><p class="sub">${o[2]}</p></button>`).join('')+`</div>
+  <div class="lab sec">Déjà dans CAP</div>`+[['etu','Révision espacée, recherche dans les cours, enregistreur'],['orga','Agenda, tâches, budget, habitudes'],['vie','Focus, météo, bons plans'],['radar','Radar : fripes, courses, pharmacies autour de toi']].map(r=>`<button class="row" data-mod="${r[0]}"><span class="g"><b>${r[1]}</b></span><span class="r">›</span></button>`).join('')}
+ else if(TL==='avg')x+=xAvg();else if(TL==='dl')x+=xDl2();else if(TL==='scan')x+=xScan();
+ else if(TL==='lv')x+=`<div class="box w x2"><div class="hrow"><div><div class="lab">Rappel de départ</div><b style="font-size:18px">${S.lvN?'Activé':'Désactivé'}</b></div><button class="${S.lvN?'ghost':'go'}" data-t="lvt" style="width:auto;margin:0;padding:12px 18px">${S.lvN?'Couper':'Activer'}</button></div><p class="sub" style="margin-top:10px">CAP te prévient ${S.lvM||10} min avant l’heure de départ, avec le Mettis à prendre. Fonctionne tant que CAP est ouverte ou en arrière-plan récent.</p><div class="tabs">${[5,10,15,20].map(m=>`<button class="tb ${(S.lvM||10)===m?'on':''}" data-t="lvm" data-v="${m}">${m} min avant</button>`).join('')}</div></div>`;
+ P(x,still)}
+body.addEventListener('change',async e=>{if(e.target.id==='scI'){toast('Traitement des pages…');await scanAdd([...e.target.files]);rTools(true)}});
+body.addEventListener('click',async e=>{const t=e.target.closest('[data-t]');if(!t)return;const v=t.dataset.v,a=t.dataset.t,val=id=>($('#'+id)||{}).value||'';
+ switch(a){case'open':TL=v;if(mod!=='tools'){mod='tools';document.querySelectorAll('#nav button').forEach(b=>b.classList.remove('on'));setSheet('open')}return render();case'home':TL='';return rTools();
+  case'avadd':{const n=val('avN').trim(),vv=val('avV').replace(',','.'),c=val('avC').replace(',','.')||'1';if(vv===''||isNaN(+vv))return toast('Entre une note');S.notes2=(S.notes2||[]).concat([{n,v:+vv,c:+c}]);save();return rTools(true)}
+  case'avtgt':S.tgt=+val('avT').replace(',','.')||10;S.remc=+val('avR').replace(',','.')||0;save();return rTools(true);
+  case'avdel':S.notes2.splice(+v,1);save();return rTools(true);
+  case'dladd':{const n=val('dlN').trim(),d=val('dlD');if(!n||!d)return toast('Nom et date');S.dls=(S.dls||[]).concat([{n,at:new Date(d).getTime()}]);save();return rTools(true)}
+  case'dldel':S.dls=(S.dls||[]).filter(d=>String(d.at)!==v);save();return rTools(true);
+  case'lvt':S.lvN=!S.lvN;save();if(S.lvN){await askNotif();toast('Rappel de départ activé')}return rTools(true);case'lvm':S.lvM=+v;save();return rTools(true);
+  case'scbw':S.scBW=+v;save();return rTools(true);case'scdel':SC.splice(+v,1);return rTools(true);case'scclr':SC.length=0;return rTools(true);
+  case'scpdf':{toast('Création du PDF…');const b=await scanPdf();dlBlob(b,'scan-'+new Date().toISOString().slice(0,10)+'.pdf');return}}});
+/* échéance proche sur l’écran Jour */
+function wDeadline(){const now=Date.now(),d=(S.dls||[]).filter(x=>x.at>now).sort((a,b)=>a.at-b.at)[0];if(!d)return'';const ms=d.at-now,days=Math.floor(ms/864e5);
+ return `<button class="box w" data-t="open" data-v="dl"><div class="lab">Échéance</div><b class="dm huge" style="color:${days<3?'var(--c)':'var(--tx)'}">${days>0?days+'j':Math.floor(ms/36e5)+'h'}</b><p class="sub">${esc(d.n)}</p></button>`}
+/* ETA réel quand on est dans le Mettis */
+function liveEta(alight){if(!LV.D||!LV.rt||!me)return null;let best=null;LV.veh.forEach(v=>{const d=hav(me,v.ll);if(d<250&&(!best||d<best.d))best={d,v}});if(!best)return null;const u=LV.rt[sk(best.v.trip)];if(!u)return null;
+ for(const id of sidsOf(alight)){const x=u.m[sk(id)];if(typeof x==='number')return x}const t=LV.D.T[sk(best.v.trip)];if(t&&u.dl!=null){const r=t.r.find(q=>sidsOf(alight).map(sk).includes(sk(q[0])));if(r){const day=new Date();day.setHours(0,0,0,0);return day.getTime()+r[1]*1000+u.dl*1000}}return null}
+/* ---- v18 : annonces du prof, semestre, quiz oral, plan B, ticket, resto U, sauvegarde, widgets ---- */
+function annAdd(c,j){let n=0;(j.annonces||[]).forEach(a=>{if(!a||!a.texte)return;const d=a.date&&/^\d{4}-\d\d-\d\d$/.test(a.date)?new Date(a.date+'T09:00').getTime():0;
+ if(a.type==='echeance'&&d){if(!(S.dls||[]).some(x=>x.n===a.texte)){S.dls=(S.dls||[]).concat([{n:a.texte,at:d}]);n++}}else if(!S.todo.some(t=>t.t===a.texte)){S.todo.push({id:uid(),t:a.texte+' ('+c.n+')',at:d||0,done:0});n++}});if(n){save();toast(n+' consigne'+(n>1?'s':'')+' du prof ajoutée'+(n>1?'s':'')+' à tes tâches')}}
+function xSem(){const C=S.courses,tr=C.filter(c=>c.f||c.dur).length,fi=C.filter(c=>c.f).length,st=S.srs||{};let mt=0,tot=0;for(const k in st){tot++;if(st[k].b>=3)mt++}
+ if(!C.length)return'';return`<div class="box live"><div class="lab"><i class="pulse on"></i>Semestre</div><div class="dirs" style="grid-template-columns:repeat(3,1fr)"><div><b class="dm" style="font-size:30px">${C.length}</b><span class="m">cours</span></div><div><b class="dm" style="font-size:30px">${fi}</b><span class="m">fiches</span></div><div><b class="dm" style="font-size:30px">${tot?Math.round(mt/tot*100):0}%</b><span class="m">maîtrisé</span></div></div>${C.length-fi?`<div class="m tiny">${C.length-fi} cours sans fiche : à rattraper</div>`:''}</div>`}
+function oralQ(){const k=RV&&RV.cards[RV.i];if(!k)return;const R=window.SpeechRecognition||window.webkitSpeechRecognition;sayTTS(k.q,true);if(!R)return toast('Reconnaissance vocale indisponible');
+ setTimeout(()=>{const r=new R();r.lang='fr-FR';r.onresult=e=>{const a=e.results[0][0].transcript,w=s=>new Set(nrm(s).split(' ').filter(x=>x.length>4)),A=w(a),B=w(k.r);let h=0;B.forEach(x=>{if(A.has(x))h++});const sc=B.size?Math.round(h/B.size*100):0;RV.oral='Tu as dit : « '+a+' » · '+sc+' % des mots clés';RV.show=1;rEtu(true)};r.onerror=()=>toast('Je n’ai rien entendu');try{r.start()}catch(_){}},Math.min(6000,1200+k.q.length*45))}
+function planB(nb,b){if(!T||!T.dest)return'';const d=ll(T.dest),w=me&&d?Math.round(hav(me,d)*1.3/WALK/60):null,late=nb[0]&&nb[0].dl>=5,none=!nb.length||minTo(nb[0].at)>25;if(!late&&!none&&!LV.cx)return'';
+ return`<div class="alert" style="margin-top:12px"><b>Plan B</b> · ${late?'Mettis en retard de '+nb[0].dl+' min.':none?'Pas de Mettis avant longtemps.':'Des passages sont supprimés.'} ${w?'À pied : '+w+' min, arrivée '+clock(new Date(Date.now()+w*6e4))+'.':''}</div>`}
+/* ticket */
+function wTicket(){if(!S.tk)return'';const d=Math.ceil((S.tk-Date.now())/864e5);if(d>7)return'';return`<button class="box w" data-t="open" data-v="tk"><div class="lab">Ticket Le Met’</div><b class="dm huge" style="color:var(--c)">${d<=0?'!':d+'j'}</b><p class="sub">${d<=0?'expiré : recharge-le':'avant expiration'} · distributeur à l’arrêt Gare</p></button>`}
+/* resto U */
+function wResto(){const d=new Date(),wd=d.getDay(),h=d.getHours()+d.getMinutes()/60,open=wd>0&&wd<6&&h>=11.5&&h<14;return`<a class="box w" href="https://www.google.com/search?q=menu+restaurant+universitaire+Metz%27In+Crous" target="_blank" rel="noopener"><div class="lab">Resto U Metz’In</div><b style="font-size:18px;margin-top:8px">${open?'Ouvert':'Fermé'}</b><p class="sub">${wd>0&&wd<6?(h<11.5?'ouvre à 11h30':h<14?'jusqu’à 14h · repas à 1 €':'midi seulement · demain 11h30'):'en semaine, le midi'}</p><span class="m tiny">menu du jour ›</span></a>`}
+function wTip(){try{return`<div class="box w x2"><div class="lab">Bon plan du jour</div>${tipBox(tipOfDay())}</div>`}catch(_){return''}}
+/* sauvegarde */
+async function backup(){const kv={};for(const m of S.courses){const c=await idb.get('course:'+m.id).catch(()=>null);if(c)kv['course:'+m.id]=c}const b=new Blob([JSON.stringify({app:'CAP',v:APPV,at:Date.now(),S,kv})],{type:'application/json'});dlBlob(b,'cap-sauvegarde-'+new Date().toISOString().slice(0,10)+'.json');S.bkAt=Date.now();save()}
+async function restore(f){try{const j=JSON.parse(await f.text());if(j.app!=='CAP')throw 0;for(const k in j.kv)await idb.set(k,j.kv[k]);Object.assign(S,j.S);save();toast('Sauvegarde restaurée');setTimeout(()=>location.reload(),900)}catch(_){toast('Fichier de sauvegarde invalide')}}
+body.addEventListener('change',e=>{if(e.target.id==='bkI'&&e.target.files[0])restore(e.target.files[0])});
+TOOLS.unshift(['bk','Sauvegarde','Exporter / restaurer toutes tes données','up']);TOOLS.push(['tk','Ticket Le Met’','Alerte avant expiration de ton titre','ticket'],['exam','Mode examen','Planning de révision jusqu’à une échéance','book']);
+const rToolsBase=rTools;rTools=function(still){if(TL==='bk'||TL==='tk'||TL==='exam'){const t=TOOLS.find(x=>x[0]===TL);let x=head1('Profil & réglages',t[1])+`<button class="back" data-t="home">${ic('back')} toutes les options</button>`;
+ if(TL==='bk')x+=`<p class="sub">Cours, transcriptions, fiches, notes, tâches et réglages dans un seul fichier. L’audio se garde à part (bouton MP3 de chaque cours).${S.bkAt?' Dernière sauvegarde : '+new Date(S.bkAt).toLocaleDateString('fr-FR')+'.':''}</p><button class="go" data-t="bkgo">Exporter mes données</button><label class="ghost" style="display:block;text-align:center;cursor:pointer">Restaurer depuis un fichier<input type="file" accept=".json,application/json" id="bkI" hidden></label>`;
+ if(TL==='tk')x+=`<p class="sub">Date de fin de ton abonnement ou de ton titre : CAP t’alerte 7 jours avant.</p><div class="form"><div class="ln"><input id="tkD" type="date" value="${S.tk?new Date(S.tk).toISOString().slice(0,10):''}"><button class="add" data-t="tkok">OK</button></div></div>`;
+ if(TL==='exam'){const L=(S.dls||[]).filter(d=>d.at>Date.now());x+=`<p class="sub">Choisis une échéance : CAP répartit tes fiches sur les jours qui restent et crée une tâche de révision par jour.</p>`+(L.length?L.map(d=>`<button class="row" data-t="examgo" data-v="${d.at}"><span class="g"><b>${esc(d.n)}</b><span class="m">${new Date(d.at).toLocaleDateString('fr-FR')}</span></span><span class="r">Planifier ›</span></button>`).join(''):'<div class="sub">Ajoute d’abord une échéance.</div>')}
+ return P(x,still)}return rToolsBase(still)};
+function examPlan(at){const F=S.courses.filter(c=>c.f);if(!F.length)return toast('Crée d’abord des fiches de cours');const days=Math.max(1,Math.floor((at-Date.now())/864e5)),dl=(S.dls||[]).find(d=>d.at===at);let n=0;
+ for(let i=0;i<days;i++){const day=new Date();day.setDate(day.getDate()+i+1);day.setHours(18,0,0,0);if(day.getTime()>=at)break;const c=i===days-1?null:F[i%F.length];S.todo.push({id:uid(),t:c?'Réviser : '+c.n:'Révision générale · '+(dl?dl.n:''),at:day.getTime(),done:0});n++}save();toast(n+' séances de révision planifiées')}
+body.addEventListener('click',e=>{const t=e.target.closest('[data-t]');if(!t)return;const a=t.dataset.t;
+ if(a==='bkgo')backup();if(a==='tkok'){const v=($('#tkD')||{}).value;S.tk=v?new Date(v+'T23:59').getTime():0;save();toast('Ticket enregistré');rTools(true)}if(a==='examgo')examPlan(+t.dataset.v)});
+/* 13. widgets réorganisables */
+const WREG={hero:'wHero',bus:'wBus',dl:'wDeadline',tk:'wTicket',clock:'wClock',wx:'wWx',rec:'wRec',rev:'wRev',resto:'wResto',day:'wDay',todo:'wTodo',focus:'wFocus',tip:'wTip',ics:'wIcs'};
+const WNAME={hero:'Prochain cours',bus:'Mettis B',dl:'Échéance',tk:'Ticket',clock:'Horloge',wx:'Météo',rec:'Enregistrer',rev:'Révision',resto:'Resto U',day:'Journée',todo:'À faire',focus:'Focus',tip:'Bon plan',ics:'Emploi du temps'};
+let WED=0;function wOrder(){const o=(S.wo||[]).filter(k=>WREG[k]);for(const k in WREG)if(!o.includes(k))o.push(k);return o}
+function wGrid(){const o=wOrder(),hid=S.wh||[];if(WED)return`<div class="lab sec">Organise tes widgets</div>`+o.map((k,i)=>`<div class="row"><span class="g"><b style="opacity:${hid.includes(k)?.4:1}">${WNAME[k]}</b></span><span class="r"><button class="ghost" data-w="wup" data-v="${k}" style="margin:0;width:auto;padding:8px 12px" ${i?'':'disabled'}>↑</button><button class="ghost" data-w="whide" data-v="${k}" style="margin:0 0 0 6px;width:auto;padding:8px 12px">${hid.includes(k)?'Afficher':'Masquer'}</button></span></div>`).join('')+`<button class="go" data-w="wdone">Terminé</button>`;
+ return'<div class="wg">'+o.filter(k=>!hid.includes(k)).map(k=>{try{return window[WREG[k]]?window[WREG[k]]():eval(WREG[k])()}catch(_){return''}}).join('')+'</div><button class="ghost" data-w="wedit" style="margin-top:12px">Organiser les widgets</button>'}
+body.addEventListener('click',e=>{const t=e.target.closest('[data-w]');if(!t)return;const w=t.dataset.w,v=t.dataset.v;if(!/^w(up|hide|edit|done)$/.test(w))return;
+ if(w==='wedit')WED=1;if(w==='wdone')WED=0;if(w==='wup'){const o=wOrder(),i=o.indexOf(v);if(i>0){o.splice(i,1);o.splice(i-1,0,v)}S.wo=o}if(w==='whide'){const h=S.wh||[];S.wh=h.includes(v)?h.filter(x=>x!==v):h.concat([v])}save();rToday(true)});
 /* ---------- Démarrage ---------- */
 applyTheme();day();xBoot();icsSync().then(()=>{if(mod==='today'&&!T&&!cur)render(true)});{const mb=$('#meB');if(mb){mb.innerHTML=ic('gear');mb.setAttribute('aria-label','Profil et réglages')}}setSheet('mid');net();hud();render();drawPlaces();startGPS();setInterval(weather,12e5);liveBoot();setInterval(()=>icsSync(),36e5);
 const boot=$('#boot');let bi=0;const bl=['CAP','MODULE VOCAL : '+VOX[S.vox][0],'LIAISON GPS','CARTE DE METZ','LIGNE METTIS B','PROFIL : '+RANKS[rank()][0]],bt=setInterval(()=>{if(bi<bl.length)boot.querySelector('pre').innerHTML+=`&gt; ${bl[bi++]} <b>OK</b>\n`;else{clearInterval(bt);boot.classList.add('off');setTimeout(()=>boot.remove(),500)}},230);
 boot.addEventListener('click',()=>{sfx('ok');boot.classList.add('off')});
 (async()=>{if(!navigator.onLine)return;for(const p of PLACES)if(!ll(p)){await ensureLL(p);await new Promise(r=>setTimeout(r,300))}drawPlaces();if(!T&&!cur)render(true);
  if(Object.keys(S.stops).length<10){await resolveStops();if(!T&&!cur)render(true)}weather()})();
-const APPV='v15';if(location.protocol==='https:'&&navigator.onLine)fetch(location.pathname+'?chk='+Date.now(),{cache:'no-store'}).then(r=>r.text()).then(t=>{const m=t.match(/APPV='(v\d+)'/);if(m&&m[1]!==APPV&&!sessionStorage.getItem('up'+m[1])){sessionStorage.setItem('up'+m[1],1);location.replace(location.pathname+'?v='+m[1])}}).catch(()=>{});
+const APPV='v18';if(location.protocol==='https:'&&navigator.onLine)fetch(location.pathname+'?chk='+Date.now(),{cache:'no-store'}).then(r=>r.text()).then(t=>{const m=t.match(/APPV='(v\d+)'/);if(m&&m[1]!==APPV&&!sessionStorage.getItem('up'+m[1])){sessionStorage.setItem('up'+m[1],1);location.replace(location.pathname+'?v='+m[1])}}).catch(()=>{});
 if('serviceWorker'in navigator&&location.protocol==='https:')navigator.serviceWorker.register('cap-sw.js').catch(()=>{});
 window.CAP={S,planBus,resolveStops,ohState};
 })();
