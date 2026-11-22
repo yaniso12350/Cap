@@ -1,6 +1,6 @@
-const V='cap-shell-v10',TILES='cap-tiles-v2';
-const SHELL=['./cap.html','./cap.webmanifest','./cap-192.png','./cap-512.png'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(V).then(c=>Promise.all(SHELL.map(u=>c.add(u).catch(()=>0)))).then(()=>self.skipWaiting())));
+const V='cap-shell-v25',TILES='cap-tiles-v2';
+const SHELL=['./','./cap.html','./cap.webmanifest','./cap-192.png','./cap-512.png'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V&&x!==TILES).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const u=new URL(r.url);
  if(/basemaps\.cartocdn\.com$|tile\.openstreetmap\.org$/.test(u.hostname)){
